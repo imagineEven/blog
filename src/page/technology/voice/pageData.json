@@ -1,0 +1,19 @@
+{
+	"features": [{
+		"banner": "images/technology/part_banner_9.jpg",
+		"title": "语意理解",
+		"describe": "精准理解用户的意图，在救援及车后服务领域不断进行AI深度训练。"
+	}, {
+		"banner": "images/technology/part_banner_10.jpg",
+		"title": "语音合成",
+		"describe": "将应答结果转换成可以播报的声音，形成人工智能回访系统。 "
+	}, {
+		"banner": "images/technology/part_banner_11.jpg",
+		"title": "信号处理",
+		"describe": "对原始语音信号进行噪声消除和干扰抑制处理，完成精准识别。"
+	}, {
+		"banner": "images/technology/part_banner_12.jpg",
+		"title": "对话管理",
+		"describe": "人工智能对客户对话上下文形成完整统一的感知，应答更自然。"
+	}]
+}

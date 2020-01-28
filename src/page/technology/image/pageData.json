@@ -1,0 +1,19 @@
+{
+	"features": [{
+		"banner": "images/technology/part_banner_5.jpg",
+		"title": "车辆牌照和vin码识别",
+		"describe": "透过OCR技术，实时鉴别车牌和车架号，确保各项服务的有效性和真实性。"
+	}, {
+		"banner": "images/technology/part_banner_6.jpg",
+		"title": "过程实时监控",
+		"describe": "利用摄像头的实时图像捕获功能，对包括道路救援在内的车后服务过程进行实时图像分析，确保服务质量。 "
+	}, {
+		"banner": "images/technology/part_banner_7.jpg",
+		"title": "车辆表面损伤识别",
+		"describe": "有效应用在查勘领域，提升定损理赔的速度，通过多个维度提供多套定损方案建议。"
+	}, {
+		"banner": "images/technology/part_banner_8.jpg",
+		"title": "车型车辆品牌识别",
+		"describe": "通过正面车头车尾照、侧面车身零部件照，进行多角度车型和品牌识别，提供包括推修在内的更专业更精准的服务。"
+	}]
+}

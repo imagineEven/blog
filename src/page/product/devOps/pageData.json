@@ -1,0 +1,71 @@
+{
+	"servicetype": {
+		"title": "服务内容",
+		"describe": "结合各类车主增值服务，帮助企业了解用户、增加用户粘性，协助策划运营活动、<br class='line_br'/>优化交互流程，打造更加精细化的用户服务能力。",
+		"list": [
+			[{
+				"iconImg": "images/iconImg/colour_icon_25.png",
+				"title": "数据清洗"
+			}, {
+				"iconImg": "images/iconImg/colour_icon_24.png",
+				"title": "拉新"
+			}, {
+				"iconImg": "images/iconImg/colour_icon_23.png",
+				"title": "促活"
+			}, {
+				"iconImg": "images/iconImg/colour_icon_21.png",
+				"title": "客户留存"
+			}, {
+				"iconImg": "images/iconImg/colour_icon_22.png",
+				"title": "转化"
+			}, {
+				"iconImg": "images/iconImg/colour_icon_20.png",
+				"title": "积分系统"
+			}]
+		]
+	},
+	"servicedis": [{
+		"title": "客户运维服务",
+		"list": [
+			"调研：基于深度沟通，洞察企业在获客、客户管理、用户转化中的痛点和需求。",
+			"提案：结合企业用户属性和我们在车主运营领域的垂直经验，配置增值服务、设计定向客户运营和转化方案。",
+			"专属团队：配置项目专属运营、技术、客服团队，深刻理解企业品牌理念，协助企业并提供专业见解。",
+			"运营服务：我们为企业提供定制化精准营销工具，也可以代企业完成从用户迁移、拉新到留存、活跃、转化的一站式服务，节省成本，快速建立专业化服务能力。",
+			"技术服务：我们可以动态调整运营所需的新技术和新功能，快速开发上线，节省企业技术支出。",
+			"数据服务：运营期间直接为企业提供数据分析结论，细化用户画像和标签。",
+			"精准投放：基于运营数据和用户标签，实现大数据自助精准投放，提高转化率。",
+			"策略调整：根据企业需求动态调整运营策略，快速达成阶段性和整体运营指标。"
+		]
+	}],
+	"features": {
+		"title": "产品特色",
+		"list": [
+			[{
+				"icon": "&#xe641;",
+				"title": "简单",
+				"describe": "小程序一键绑定客户<br class='line_br'/>流程和功能人性化设计<br class='line_br'/>操作简单易懂"
+			}, {
+				"icon": "&#xe63a;",
+				"title": "智能",
+				"describe": "全移动端搭建<br class='line_br'/>随时随地触达用户<br class='line_br'/>全智能化流程交互"
+			}, {
+				"icon": "&#xe645;",
+				"title": "定制",
+				"describe": "高度匹配企业需求<br class='line_br'/>自定义用户权益<br class='line_br'/>定制化品牌界面"
+			}],
+			[{
+				"icon": "&#xe642;",
+				"title": "精准",
+				"describe": "用户标签精细化<br class='line_br'/>差异化服务路径<br class='line_br'/>定向产品转化"
+			}, {
+				"icon": "&#xe643;",
+				"title": "全面",
+				"describe": "整合并打通服务<br class='line_br'/>专属项目服务团队<br class='line_br'/>全流程服务闭环"
+			}, {
+				"icon": "&#xe644;",
+				"title": "安全",
+				"describe": "用户隐私保护<br class='line_br'/>数据加密处理<br class='line_br'/>智能风控防欺诈"
+			}]
+		]
+	}
+}

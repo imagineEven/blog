@@ -1,0 +1,50 @@
+{
+	"solution": [
+		[{
+			"image": "images/solution/industry_solu_1.jpg",
+			"title": "车主服务",
+			"describe": "以专业化运营提升车主满意度，将低频的车主增值服务转化为高频。配套大数据精准营销工具，降低企业营销成本，提升活跃和转化，数据显示，使用增值服务可将车险用户续保率提高30%，客户粘性显著越强。",
+			"redirectUrl": "/product/carowner"
+		}, {
+			"image": "images/solution/industry_solu_2.jpg",
+			"title": "协勘定损",
+			"describe": "快速调度社会化协勘人员，辅以操作简单的AI智能查勘工具，协助保险公司远程查勘定损，对接理赔系统，提高核损定损速度。全程减少保险公司人员参与，减少渗漏和欺诈损失，将传统查勘成本降低50%以上。",
+			"redirectUrl": "/product/survey "
+		}],
+		[{
+			"image": "images/solution/industry_solu_6.jpg",
+			"title": "智能营销",
+			"describe": "帮助保险公司捕获客户数据，建立自己的客户体系和自助精准投放机制，降低线上展业的获客和营销成本，结合营销员线下面对面服务的优势，大幅提高个体产能，并为全险种交叉销售奠定基础。",
+			"redirectUrl": "/product/DevOps"
+		}, {
+			"image": "images/solution/industry_solu_7.jpg",
+			"title": "推修服务",
+			"describe": "利用理赔场景为车主推荐修配厂信息，帮助保险公司创造更多的与下游厂商的合作机会和议价能力，提高对服务商的把控力，为车主提供更优质稳定的服务体验。",
+			"redirectUrl": "/product/survey"
+		}],
+		[{
+			"image": "images/solution/industry_solu_8.jpg",
+			"title": "数据服务",
+			"describe": "帮助保险公司获取更齐全的车后大数据，直接输出数据分析报告，为保险公司产品研发和服务策略提供可执行的建议。直观的可视化数据展示，方便保险公司监控服务效率，合理配置服务资源。",
+			"redirectUrl": "",
+			"redirectName": "联系我们"
+		}, {
+			"image": "images/solution/industry_solu_9.jpg",
+			"title": "供应链金融",
+			"describe": "与保险机构共同部署供应链金融，快速扩大创新业务，提高现有业务收入规模。壹路通智能风控平台，帮助上下游提供风控保证，对于贷前贷后提供在线申请、到期提醒、风险监控等完整服务。",
+			"redirectUrl": "",
+			"redirectName": "联系我们"
+		}]
+	],
+	"mechanism": [
+		[{
+			"banner": "images/mechaism/insurance_banner_1.jpg",
+			"describe": "解决远离客户的烦恼，与客户建立高频联系",
+			"contentHtml": "<div class='mx_auto'> <h2 class='my_30 font_size36 color_4d line_height15'>某国内巨头保险公司使用壹路通精准营销服务，用户互动数值提升300%</h2> <p class='my_30 font_size22 color_80 line_height15 text_justify'>与大多数保险同行一样，此客户虽拥有海量优质用户，却并不了解用户，由于缺乏实名认证，用户信息准确率还不到50%，在用户留存和活跃上面临激烈的同质化竞争压力。</p> <div class='text_center'> <div class='mx_auto img1'> </div> <p class='my_30 font_size22 color_80 line_height15 text_justify'>壹路通为客户提供的解决方案，包括用户迁移、拉新、促活和转化等综合运营。以车主增值服务充分延伸保险的服务场景和频率；借助挪车、代驾等线下场景，成功进行线上迁移和用户信息补全，在一个月内将迁移率提升了260%，建立50多种用户标签；根据客户标签和消费偏好进行差异化精准投放，打造了“明星车主征集令”等创意活动，将用户在线互动数值提升到此前的3倍，成功转化30%僵尸粉成为活跃粉丝。</p> <div class='my_60 px_50 marks'> <p class='my_30 font_size22 color_80 line_height15 text_justify'>在没有自建互联网运营团队的情况下，用户整体迁移成本还不到之前的1/3。</p> <p class='my_30 font_size22 color_80 line_height15 text_right'>——客户互联网保险创新部负责人</p> </div> <p class='my_30 font_size22 color_80 line_height15 text_justify'>通过服务我们发现，用户使用汽车增值服务的频次越多，粘性越大，随着使用次数的增加，续保率呈持续增长趋势。</p> </div>"
+		}, {
+			"banner": "images/mechaism/insurance_banner_2.jpg",
+			"describe": "抓住大灾救援黄金时间，把用户变为终身粉丝",
+			"contentHtml": "<div class='mx_auto'> <h2 class='my_30 font_size36 color_4d line_height15'>壹路通为某中国TOP5保险公司提供“艾云尼”大灾救援服务</h2> <p class='my_30 font_size22 color_80 line_height15 text_justify'>大灾救援不但是对保险公司应急调度能力的考验，更是建立品牌好感的机会。</p> <div class='text_center'> <div class='mx_auto img2'> </div> <p class='my_30 font_size22 color_80 line_height15 text_justify'>2018年，艾云尼台风侵袭广东，全省多地陆续进入重灾区，救援日单量达到2017年“天鸽”的5-6倍。台风之前，壹路通通过中国气象网、各气象发布平台，结合壹路通大灾数据库，对不同地区的积水深度、车辆受灾程度、案件分布密度进行了精准预测，提前锁定当地车辆资源，并调集周边省市车辆，同时利用互联网平台对全国资源的精准掌控，将驳运至广东的拖车包下，为后续顺利救援奠定了基础。</p> <div class='my_60 px_50 marks'> <p class='my_30 font_size22 color_80 line_height15 text_justify'>当时日单量逼近2000，已经超越平时15倍，由于提前储备了拖车，加上壹路通运营人员现场追单协调、增加客服班次，才最大程度降低了车辆损失，让我们切身感受到了大数据的价值。</p> <p class='my_30 font_size22 color_80 line_height15 text_right'>——保险公司理赔部负责人</p> </div> <p class='my_30 font_size22 color_80 line_height15 text_justify'>通过人机结合、照片实时回传，救援流程完整可视，实现了对一线救援现场的清晰掌控，还通过保险公司品牌logo展示等暖心细节，增加了用户对品牌的信任感。</p> </div>"
+		}]
+	]
+}

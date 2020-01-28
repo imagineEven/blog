@@ -1,0 +1,27 @@
+{
+	"news": [{
+		"title": "专访壹路通联合创始人兼CEO梁文辉",
+		"formName": "中国保险报",
+		"date": "2019-2-19",
+		"showImg": "",
+		"describe": "2018年是中国车险行业市场日益成熟，同时也是竞争日益激烈的一年。各大保险公司为了提升客户续保率，各出奇招，也引发了诸多不正当竞争行为。",
+		"toUrl": "https://baijiahao.baidu.com/s?id=1625861368823693497&wfr=spider&for=pc",
+		"inUrl": "/about/report/1"
+	}, {
+		"title": "壹路通行业首推现金结算制，服务商当天可提现",
+		"formName": "中华网",
+		"date": "2019-4-29",
+		"showImg": "",
+		"describe": "近日,壹路通针对救援业务,开始实行对服务商提供的救援服务进行即时现金结算,这在行业尚属首例。",
+		"toUrl": "https://tech.china.com/article/20190429/kejiyuan0129281575.html",
+		"inUrl": "/about/report/2"
+	}, {
+		"title": "壹路通与中国银行达成战略合作，为车主提供一站式智能服务",
+		"formName": "易车网",
+		"date": "2019-4-19",
+		"showImg": "",
+		"describe": "近日,壹路通与中国银行达成战略合作,双方将围绕车主服务这一细分场景,利用各自在产品、技术、服务上的优势,共同构建基于互联网场景的一站式车后智能服务,为银行客户提供定制化的车辆服务和极致的体验。",
+		"toUrl": "http://news.bitauto.com/dealer/20190419/1109365811.html",
+		"inUrl": "/about/report/3"
+	}]
+}

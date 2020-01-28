@@ -1,0 +1,70 @@
+{
+	"servicetype": {
+		"title": "服务内容",
+		"describe": "帮助汽车服务门店建立数字化获客、接单和业务操作系统，将传统面对面服务优势<br class='line_br'/>和智能化门店管理有效结合，提升服务质量，建立更好的客户关系。",
+		"list": [
+			[{
+				"iconImg": "images/iconImg/colour_icon_16.png",
+				"title": "获客"
+			}, {
+				"iconImg": "images/iconImg/colour_icon_5.png",
+				"title": "仓库管理"
+			}, {
+				"iconImg": "images/iconImg/colour_icon_6.png",
+				"title": "客户关系"
+			}, {
+				"iconImg": "images/iconImg/colour_icon_7.png",
+				"title": "采购平台"
+			}, {
+				"iconImg": "images/iconImg/colour_icon_11.png",
+				"title": "考勤"
+			}, {
+				"iconImg": "images/iconImg/colour_icon_10.png",
+				"title": "供应链金融"
+			}]
+		]
+	},
+	"servicedis": [{
+		"title": "",
+		"list": [
+			"壹路通为各类服务门店搭建智能接单平台和管理系统。",
+			"门店可以自动接收壹路通各类车主服务预约订单",
+			"车主到店获取服务后，在线支付和结算，电子双签。",
+			"门店可以在线接收、管理自己客户的订单，监控交易数据",
+			"帮助门店快速获客和建立差异化客户管理，提供运营支持",
+			"门店可将传统的采购和仓库管理转移到线上，减少人力成本",
+			"壹路通可以为合作门店提供资金和业务拓展支持，快速增加收入。"
+		]
+	}],
+	"features": {
+		"title": "产品特色",
+		"list": [
+			[{
+				"icon": "&#xe63d;",
+				"title": "功能丰富",
+				"describe": "覆盖门店各类需求<br class='line_br'/>个性化定制和搭建<br class='line_br'/>全程技术支持"
+			}, {
+				"icon": "&#xe63c;",
+				"title": "客户管理",
+				"describe": "增加用户回店率<br class='line_br'/>轻松获取新客户<br class='line_br'/>日常多元化触达"
+			}, {
+				"icon": "&#xe640;",
+				"title": "智能管控",
+				"describe": "业务全自动化<br class='line_br'/>减少人力和失误<br class='line_br'/>精细化成本分析"
+			}],
+			[{
+				"icon": "&#xe64b;",
+				"title": "灵活搭建",
+				"describe": "支持多平台端口<br class='line_br'/>门店0成本对接<br class='line_br'/>高度兼容开放"
+			}, {
+				"icon": "&#xe644;",
+				"title": "安全隐私",
+				"describe": "核心数据加密<br class='line_br'/>读取权限设置<br class='line_br'/>智能风险管控"
+			}, {
+				"icon": "&#xe63f;",
+				"title": "供应链赋能",
+				"describe": "上下游资源共享<br class='line_br'/>优质合作伙伴<br class='line_br'/>强大资金支持"
+			}]
+		]
+	}
+}

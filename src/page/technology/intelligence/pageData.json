@@ -1,0 +1,61 @@
+{
+	"features": [{
+		"banner": "images/technology/part_banner_1.jpg",
+		"title": "大数据",
+		"list": [{
+			"title": "车主行为数据",
+			"describe": "根据驾驶习惯、驾驶偏好为用户提示安全"
+		}, {
+			"title": "车辆行驶数据",
+			"describe": "根据车辆行驶里程、行驶轨迹，帮助用户节省保费"
+		}, {
+			"title": "服务交易数据",
+			"describe": "完整记录用车养车消费记录，帮助企业和车主进行成本分析 "
+		}]
+	}, {
+		"banner": "images/technology/part_banner_2.jpg",
+		"title": "云计算",
+		"list": [{
+			"title": "稳定性高",
+			"describe": ""
+		},{
+			"title": "大规模数据实时处理",
+			"describe": ""
+		}, {
+			"title": "多维度最佳订单匹配",
+			"describe": ""
+		}, {
+			"title": "多维度最佳成本核销计算",
+			"describe": ""
+		}]
+	}, {
+		"banner": "images/technology/part_banner_3.jpg",
+		"title": "人工智能算法",
+		"list": [{
+			"title": "GPS+ERP深度对接实时信息上传",
+			"describe": ""
+		}, {
+			"title": "全维度调度算法，智能派单",
+			"describe": ""
+		}, {
+			"title": "制定最佳路径规划和调度方案",
+			"describe": ""
+		}]
+	}, {
+		"banner": "images/technology/part_banner_4.jpg",
+		"title": "智能硬件",
+		"list": [{
+			"title": "前置摄像头图像识别",
+			"describe": "智能捕获司机面部识别信息，预警危险驾驶，安全监控行驶全程。"
+		}, {
+			"title": "后置摄像头实时监控车辆状态",
+			"describe": "发生事故或车体损害智能报警，如无事故规避纠纷。"
+		}, {
+			"title": "车载传感器",
+			"describe": "自动捕获上下车情况、车辆信息状况，帮助车队完成全信息化管理，增强调度运营。"
+		}, {
+			"title": "车载语音设备",
+			"describe": "对车行数据精准分析和建模，回归预测多重场景服务偏好，为车主精准推荐服务。"
+		}]
+	}]
+}

@@ -1,0 +1,77 @@
+{
+	"servicetype": {
+		"title": "服务内容",
+		"describe": "完善的ERP管理系统，帮助企业在内部建立更清晰的车辆、人员、订单分配、油卡、<br class='line_br'/>通行费、财务审计等管理，在外部建立更好的口碑和对新客户的吸引力，<br class='line_br'/>达到控制成本、提高效率的目的，并带来新的收入机会。",
+		"list": [
+			[{
+				"iconImg": "images/iconImg/colour_icon_16.png",
+				"title": "获客"
+			}, {
+				"iconImg": "images/iconImg/colour_icon_17.png",
+				"title": "油卡"
+			}, {
+				"iconImg": "images/iconImg/colour_icon_18.png",
+				"title": "ETC"
+			}, {
+				"iconImg": "images/iconImg/colour_icon_19.png",
+				"title": "智能调度"
+			}, {
+				"iconImg": "images/iconImg/colour_icon_11.png",
+				"title": "考勤"
+			}, {
+				"iconImg": "images/iconImg/colour_icon_10.png",
+				"title": "供应链金融"
+			}, {
+				"iconImg": "images/iconImg/colour_icon_9.png",
+				"title": "运能交易"
+			}, {
+				"iconImg": "images/iconImg/colour_icon_8.png",
+				"title": "客服系统"
+			}]
+		]
+	},
+	"servicedis": [{
+		"title": "车队管理服务",
+		"list": [
+			"调研：深度了解企业在业务操作、客户关系、内部成本管理、客服效率等层面遇到的真实痛点和需求。",
+			"部署：基于企业实际需求，设计并部署智能化接单平台和ERP管理系统，为车队配置功能设置权限，自定义管理系统。",
+			"培训：我们设计简单易操作的ERP系统，并提供专业化的培训。",
+			"GPS对接：我们提供特色的GPS安装和对接服务，为车队增加订单、实现在线接单，并使内部车辆管理和里程数统计等更加透明、精准。",
+			"增值服务：我们基于大部分车队的需求，还设置了油卡和ETC增值服务，帮企业建立透明、统一的油卡和过路费管理，让财务和成本管理更加清晰。",
+			"考勤打卡：车队司机可以自助打卡上下班，考勤管理更简单。",
+			"运能交易：只有在壹路通开放平台，车队才得以共享资源和位置信息，灵活进行剩余运能交易，增加车队收入。",
+			"跟踪反馈：我们根据车队需求按周或者按月定期输出交易报告和成本分析，听取车队新的需求，调整和完善我们的服务。"
+		]
+	}],
+	"features": {
+		"title": "产品特色",
+		"list": [
+			[{
+				"icon": "&#xe647;",
+				"title": "智能订单录入",
+				"describe": "多渠道自动监测订单<br class='line_br'/>所有订单一键录入<br class='line_br'/>保证收集车辆资源全部状态"
+			}, {
+				"icon": "&#xe63e;",
+				"title": "智能车辆调度",
+				"describe": "GPS深度对接<br class='line_br'/>智能规划线路<br class='line_br'/>杜绝匆忙调度呼喊"
+			}, {
+				"icon": "&#xe649;",
+				"title": "配套车辆服务",
+				"describe": "优化加油卡计划<br class='line_br'/>ETC使用管理<br class='line_br'/>详细的交易报告"
+			}],
+			[{
+				"icon": "&#xe648;",
+				"title": "闲置运能交易",
+				"describe": "精准抓取全网资源实时状态<br class='line_br'/>自动匹配交易订单<br class='line_br'/>降低空驶和闲置率"
+			}, {
+				"icon": "&#xe646;",
+				"title": "科学降低成本",
+				"describe": "计算订单线路可节省资源的空间<br class='line_br'/>自动优化调度算法<br class='line_br'/>降低实际运营成本"
+			}, {
+				"icon": "&#xe64e;",
+				"title": "低成本业务拓展",
+				"describe": "共享拖车租赁金融<br class='line_br'/>扩展车队业务规模<br class='line_br'/>防范合作欺诈风险"
+			}]
+		]
+	}
+}

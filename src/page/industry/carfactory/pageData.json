@@ -1,0 +1,51 @@
+{
+	"solution": [
+		[{
+			"image": "images/solution/industry_solu_1.jpg",
+			"title": "车主服务",
+			"describe": "壹路通车主综合服务平台，可通过简单系统对接，为车机或企业APP搭建专属入口，为车主提供全方位出行服务，节省企业自建成本，快速形成高度专业化的服务能力，提升车主满意度和品牌黏性。",
+			"redirectUrl": "/product/carowner"
+		}, {
+			"image": "images/solution/industry_solu_6.jpg",
+			"title": "智能营销",
+			"describe": "基于大数据分析的精准营销服务，帮助企业建立自己的客户体系和自助精准投放机制，低成本获客，通过高频的增值服务，在新车售出后与车主保持高频联系，洞察用户行为偏好，为新车研发和功能优化提供真实依据。",
+			"redirectUrl": "/product/DevOps"
+		}],
+		[{
+			"image": "images/solution/industry_solu_7.jpg",
+			"title": "推修服务",
+			"describe": "利用道路救援等车后服务场景，基于环境、位置和车辆信息智能推荐维修门店，为车主客户提供更优质的服务体验，为汽车经销商和维修店增加收入。",
+			"redirectUrl": "/product/survey"
+		}, {
+			"image": "images/solution/industry_solu_4.jpg",
+			"title": "整车驳运",
+			"describe": "为主机厂和各类电商平台提供定制化整车物流服务，大小板灵活匹配，依凭全国范围长期合作的服务商资源，快速响应企业临时以及无法预期的用车需求，帮助企业建立最优资源配置策略，提高整体收益。",
+			"redirectUrl": "/product/transcar"
+		}],
+		[{
+			"image": "images/solution/industry_solu_8.jpg",
+			"title": "数据服务",
+			"describe": "利用深耕车后服务市场的优势，为主机厂、金融租赁企业、二手车电商平台等行业参与者提供完整的车联网数据服务，包括海量数据源、优质的数据信息及专业数据分析，通过深度整合应用，为车主提供更具个性化的服务体验。",
+			"redirectUrl": "",
+			"redirectName": "联系我们"
+		}, {
+			"image": "images/solution/industry_solu_9.jpg",
+			"title": "供应链金融",
+			"describe": "壹路通运用在资源整合、大数据和智能风控上优势，为汽车行业上下游搭建开放性聚合平台，通过高度风险控制能力和稳健的资金赋能，帮助生态内各方快速做大业务。",
+			"redirectUrl": "",
+			"redirectName": "联系我们"
+		}]
+	],
+	"mechanism": [
+		[{
+			"banner": "images/mechaism/insurance_banner_5.png",
+			"describe": "整车驳运的同时帮助客户解决验车等中间环节",
+			"contentHtml": "<div class='mx_auto'> <h2 class='my_30 font_size36 color_4d line_height15'>壹路通为客户独家承接全国整车驳运服务</h2> <p class='my_30 font_size22 color_80 line_height15 text_justify'>2019年，壹路通与国内大型金融机构合作，为其旗下汽车租赁业务提供全国范围整车物流服务，目前已覆盖三十多个城市。</p> <div class='text_center'> <div class='mx_auto img5'> </div> <p class='my_30 font_size22 color_80 line_height15 text_justify'>与普通的整车驳运不同，根据客户需求，我们在接车的同时，利用服务商优势，为客户提供安全可靠的验车、资料清单确认以及其他个性化增值服务，避免客户因为各种小问题而重复往返，节省人力和时间，从接车、托运到确认收货一气呵成。</p> <div class='my_60 px_50 marks'> <p class='my_30 font_size22 color_80 line_height15 text_justify'>以前都是临时找拖车，中间环节出现过各种意想不到的问题，现在可以小程序随时下单，有问题直接在线联系客服，运输中还能收到节点图片，非常放心。</p> <p class='my_30 font_size22 color_80 line_height15 text_right'>——租赁公司业务部负责人</p> </div> <p class='my_30 font_size22 color_80 line_height15 text_justify'>由于实时掌握服务商位置分布和采用全智能化调度，壹路通驳运价格可以做到低于市场平均，帮助客户大幅降低了物流成本。</p> </div>"
+		}, {
+			"banner": "images/mechaism/insurance_banner_6.png",
+			"describe": "携手北京交警官方APP打造互联网+车主服务",
+			"contentHtml": "<div class='mx_auto'> <h2 class='my_30 font_size36 color_4d line_height15'>壹路通携手北京交警官方APP<br class='line_br' />打造互联网+车主服务</h2> <p class='my_30 font_size22 color_80 line_height15 text_justify'>2016年11月，北京各大环路的交通指示牌不断提示车主下载“北京交警”手机APP，由壹路通提供的智能道路救援和路修服务，正式上线APP一级入口“便民服务”版块。</p> <div class='text_center'> <div class='mx_auto img6'> </div> <p class='my_30 font_size22 color_80 line_height15 text_justify'>北京、天津及周边车主可以在线一键发起救援、路边快修等服务，体验更快速、更智能的车主服务，壹路通提供救援服务接口、技术和客服支持。这次合作由交管部门、保险、第三方车后平台联合打造，运用“互联网+交通事故快速定责”创新思维，创新性地推动了移动互联网与现代交通管理、现代保险服务的结合，获得交警和APP用户的点赞。</p> <h3 class='mt_30 mb_10 font_size22 color_80 line_height15 text_justify font_normal'>国内某保险集团机构负责人认为</h3> <div class='mb_60 px_50 marks'> <p class='font_size22 color_80 line_height15 text_justify'>这个变革和创新非常有意义！现代商业的最大进步之一就是通过技术解决了信息不对称问题，为这个时代的各种进步（包括壹路通）点赞！</p> <p class='my_30 font_size22 color_80 line_height15 text_right'></p> </div> </div> </div>"
+		}]
+	]
+
+}

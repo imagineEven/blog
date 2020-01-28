@@ -1,0 +1,19 @@
+{
+	"features": [{
+		"banner": "images/technology/part_banner_13.jpg",
+		"title": "隐私保护",
+		"describe": "我们对所有用户数据和车辆数据进行脱敏处理，没有秘钥绝对无法还原原始数据，同时我们对秘钥进行严格访问控制，仅读取服务时所必需的数据，且严格设置读取权限，我们不会将数据泄露或者租赁给任何人。"
+	}, {
+		"banner": "images/technology/part_banner_14.jpg",
+		"title": "用户授权",
+		"describe": "我们将采集的数据用以为车主用户提供更好的安全行驶保护、更加及时的事故救援服务，我们的所有行为会提前征询用户授权同意。 "
+	}, {
+		"banner": "images/technology/part_banner_15.jpg",
+		"title": "数据安全",
+		"describe": "我们进行严格且规范的信息管理，保护数据安全，防止恶意盗取和流失风险。"
+	}, {
+		"banner": "images/technology/part_banner_16.jpg",
+		"title": "识别虚假和恶意行为",
+		"describe": "自有智能风控平台拥有海量风险规则支持风险筛查，全面覆盖人工筛查容易遗漏的细小风险规则，还可灵活配置风控级别的阈值，实现企业个性化风险管控，为汽车服务上下游提供强有力的风险保障。"
+	}]
+}

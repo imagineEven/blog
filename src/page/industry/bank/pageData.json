@@ -1,0 +1,40 @@
+{
+	"solution": [
+		[{
+			"image": "images/solution/industry_solu_1.jpg",
+			"title": "车主服务",
+			"describe": "我们深度整合复杂的车后服务资源，帮助银行拓展服务场景和维度，结合银行移动支付、场景化服务、海量用户资源优势，通过专业运营，激活用户，提升车主服务体验和满意度，带来更多的价值转化机会。",
+			"redirectUrl": "/product/carowner"
+		}, {
+			"image": "images/solution/industry_solu_6.jpg",
+			"title": "智能营销",
+			"describe": "帮助银行快速建立自己的客户体系和自助精准投放机制。基于车后服务大数据和成熟的用户转化模型，我们为银行提供从获客、留存到促活、转化的全程运营支持，降低营销成本，充分发掘和引导用户的消费需求。",
+			"redirectUrl": "/product/DevOps"
+		}],
+		[{
+			"image": "images/solution/industry_solu_8.jpg",
+			"title": "数据服务",
+			"describe": "基于数据分析，为银行提供可执行的运营建议。为银行配置动态监控的数据后台，在数据加密和用户隐私保护的前提下，实时反馈用户交易数据，帮助银行控制成本、合理分配资源。将车主服务与其他场景服务进行交叉融合，建立更加多元化的转化路径。",
+			"redirectUrl": "",
+			"redirectName": "联系我们"
+		}, {
+			"image": "images/solution/industry_solu_9.jpg",
+			"title": "供应链金融",
+			"describe": "打通金融服务和小微群体之间的屏障，化解小微企业融资面临的高成本、高风险、无信评等难题，协助进行核心企业的数据清洗、分析和验真，通过智能风控系统，提高银行动态授信的能力和依据，为中小微企业提供更好的服务和科技解决方案。",
+			"redirectUrl": "",
+			"redirectName": "联系我们"
+		}]
+	],
+	"mechanism": [
+		[{
+			"banner": "images/mechaism/insurance_banner_3.jpg",
+			"describe": "通过车主服务创造全新的客户价值",
+			"contentHtml": "<div class='mx_auto'> <h2 class='my_30 font_size36 color_4d line_height15'>帮助客户搭建手机银行车主服务专区</h2> <p class='my_30 font_size22 color_80 line_height15 text_justify'>如何为用户提供智能化、场景化、一站式金融服务，是银行的普遍诉求。2019年，壹路通帮助多家大型银行搭建了在线车主服务专区，基于车主这一身份设计差异化用户服务旅程。</p> <div class='text_center'> <div class='mx_auto img3'> </div> <p class='my_30 font_size22 color_80 line_height15 text_justify'>打开手机银行APP，进入城市服务，即可发现车主服务专区，银行与壹路通通过简单的系统对接，即可在自己平台快速建立专业化的车主服务能力，提升用户体验。其中，壹路通与客户联合打造的服务包限时优惠活动，上线一天即吸引上万用户参与和购买，显示出银行用户对于日常用车养车服务的巨大需求空白。</p> <div class='my_60 px_50 marks'> <p class='my_30 font_size22 color_80 line_height15 text_justify'>当我们尝试性的推出车主服务活动时，整个参与度和持续热度，确实有点超出预期。</p> <p class='my_30 font_size22 color_80 line_height15 text_right'>——银行零售部负责人</p> </div> <p class='my_30 font_size22 color_80 line_height15 text_justify'>车主与银行客户具有极高的重合度，增值服务让银行得以更全面、更准确的认识自己的客户画像。</p> </div>"
+		}, {
+			"banner": "images/mechaism/insurance_banner_4.jpg",
+			"describe": "携手银行赋能汽车供应链金融",
+			"contentHtml": "<div class='mx_auto'> <h2 class='my_30 font_size36 color_4d line_height15'>携手银行赋能供应链金融</h2> <p class='my_30 font_size22 color_80 line_height15 text_justify'>2019年，壹路通正式与中国某大型银行机构达成战略合作，获得综合授信额度，利用双方在资源、技术和资金上的互补优势，共同部署汽车供应链金融。</p> <div class='text_center'> <div class='mx_auto img4'> </div> <p class='my_30 font_size22 color_80 line_height15 text_justify'>壹路通供应链平台将提供友好的在线资金申请入口，经过六大维度综合评估，打造更快更安全的业务流程。同时平台提供贷后服务，为银行提供逾期风险监控和动态授信管理，为营造供应链金融的良好生态环境提供全面支持，实现上下游多方合作共赢。</p> <div class='my_60 px_50 marks'> <p class='my_30 font_size22 color_80 line_height15 text_justify'>壹路通在汽车大数据分析和智能风控领域拥有丰富且成熟的实战经验，可以为银行难以触及的动态授信做出有利支撑，双方合作，希望为汽车上下游扫平资金障碍，帮助生态内各方加快发展速度。</p> <p class='my_30 font_size22 color_80 line_height15 text_right'>——银行客户部负责人</p> </div> <p class='my_30 font_size22 color_80 line_height15 text_justify'>双方合作将有助于把握快速成长的车后市场，积极构建面向未来的开放性车后生态体系。</p> </div>"
+		}]
+	]
+
+}

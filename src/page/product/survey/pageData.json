@@ -1,0 +1,65 @@
+{
+	"servicetype": {
+		"title": "服务内容",
+		"describe": "简单案件秒级处理，复杂案件全程管控",
+		"list": [
+			[{
+				"iconImg": "images/iconImg/colour_icon_15.png",
+				"title": "协勘"
+			}, {
+				"iconImg": "images/iconImg/colour_icon_14.png",
+				"title": "公估调度"
+			}, {
+				"iconImg": "images/iconImg/colour_icon_13.png",
+				"title": "智能定损"
+			}, {
+				"iconImg": "images/iconImg/colour_icon_12.png",
+				"title": "推修建议"
+			}]
+		]
+	},
+	"servicedis": [{
+		"title": "查勘定损服务",
+		"list": [
+			"发起服务：车主出险呼叫保险公司，触发查勘定损需求。",
+			"协勘调度：系统智能调度协勘人员到场。",
+			"现场查勘：协勘员在查勘APP视觉辅助指导下采集图像，后台智能识别图像准确性，不断提示调整操作，自动建立图像标签。",
+			"远程交互：复杂案件，保险公司专业部门可远程指挥，可视化交互操作。",
+			"智能定损：智能识别损坏部位的损失程度，给出参考定损价格，或根据企业定制化标准直接输出定损报告。",
+			"公估调度：可根据企业需求或者案件复杂度，协助调度第三方公估机构现场定损。",
+			"维修推荐：基于车辆信息和环境位置信息，智能推荐维修点，维修点可进一步定损。",
+			"电子存档：服务完成后，所有单据电子存档，多方可查。"
+		]
+	}],
+	"features": {
+		"title": "产品特色",
+		"list": [
+			[{
+				"icon": "&#xe63a;",
+				"title": "智能",
+				"describe": "海量汽车数据与图像<br class='line_br'/>AI机器深度学习<br class='line_br'/>提升图像处理与识别精准度"
+			}, {
+				"icon": "&#xe64c;",
+				"title": "高效",
+				"describe": "全国性协勘人员快速到场<br class='line_br'/>智能采集速度更快<br class='line_br'/>远程交互实时同步信息"
+			}, {
+				"icon": "&#xe64b;",
+				"title": "专业",
+				"describe": "准确的视觉辅助功能<br class='line_br'/>多维度采集与智能提示<br class='line_br'/>标准化作业与传输流程"
+			}],
+			[{
+				"icon": "&#xe64d;",
+				"title": "简单",
+				"describe": "任何人都可以使用<br class='line_br'/>企业查勘员简单操作<br class='line_br'/>智能收集材料简化流程"
+			}, {
+				"icon": "&#xe64e;",
+				"title": "节省",
+				"describe": "供应商场景交叉服务<br class='line_br'/>减少协勘人员费用<br class='line_br'/>企业查勘成本更低"
+			}, {
+				"icon": "&#xe644;",
+				"title": "安全",
+				"describe": "AI系统跟踪查勘员作业<br class='line_br'/>智能识别渗漏和欺诈<br class='line_br'/>作业记录不可篡改"
+			}]
+		]
+	}
+}

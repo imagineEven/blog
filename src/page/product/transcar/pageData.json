@@ -1,0 +1,66 @@
+{
+	"servicetype": {
+		"title": "服务内容",
+		"describe": "小板灵活，大小板联运实惠<br class='line_br'/>满足企业、个人不同场景下的临时运车需求",
+		"list": [
+			[{
+				"iconImg": "images/iconImg/colour_icon_4.png",
+				"title": "小板"
+			}, {
+				"iconImg": "images/iconImg/colour_icon_3.png",
+				"title": "大板"
+			}, {
+				"iconImg": "images/iconImg/colour_icon_2.png",
+				"title": "中转仓"
+			}, {
+				"iconImg": "images/iconImg/colour_icon_1.png",
+				"title": "拼车服务"
+			}]
+		]
+	},
+	"servicedis": [{
+		"title": "驳运服务",
+		"list": [
+			"下单：客户通过小程序在线查询运车价格，选择下单。",
+			"派单：系统基于车辆、交通和环境等综合因素智能调度和派单。",
+			"接单：服务商在线抢单，平均十分钟接单。",
+			"取车和验车：服务商上门提车，并提供验车、资料收集确认等增值服务。",
+			"运程跟踪：下单方、承运方、收货方可同步跟踪运程，通过地图查看车辆位置及节点照片。",
+			"中转仓：我们在停车场提供小板接驳服务，灵活衔接大板，快速触达大板到达不了的区域。",
+			"拼车服务：我们对所有拖车资源和用户订单实时跟踪，精准匹配，帮助发货方节省成本，帮助服务商降低空驶。",
+			"安全保障：货物运输过程有保险保障，一旦发生刮蹭，提供专业查勘定损和推修服务。",
+			"电子双签：可送车上门或者发送提车消息，服务完成下单方和收货方电子双签，服务记录多方可查。"
+		]
+	}],
+	"features": {
+		"title": "产品特色",
+		"list": [
+			[{
+				"icon": "&#xe639;",
+				"title": "运输网点多",
+				"describe": "50000+优质服务商<br class='line_br'/>省地级市100%覆盖<br class='line_br'/>运输线路覆盖全国"
+			}, {
+				"icon": "&#xe653;",
+				"title": "发车速度快",
+				"describe": "智能匹配全国运输资源<br class='line_br'/>调度成功率100%<br class='line_br'/>提车后可即时发车"
+			}, {
+				"icon": "&#xe654;",
+				"title": "运费便宜",
+				"describe": "起步价低<br class='line_br'/>实时透明报价<br class='line_br'/>按里程享优惠"
+			}],
+			[{
+				"icon": "&#xe64f;",
+				"title": "安全可靠",
+				"describe": "给运输货物上保险<br class='line_br'/>标准化理赔服务<br class='line_br'/>特有验车增值服务"
+			}, {
+				"icon": "&#xe651;",
+				"title": "运车经验丰富",
+				"describe": "服务商数十年托运经验<br class='line_br'/>标准化运车服务流程<br class='line_br'/>风险前置杜绝各类隐患"
+			}, {
+				"icon": "&#xe652;",
+				"title": "运输成本分析",
+				"describe": "定制成本分析报告<br class='line_br'/>帮助企业管理人财物<br class='line_br'/>降低整体运营成本"
+			}]
+		]
+	}
+}

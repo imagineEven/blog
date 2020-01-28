@@ -1,0 +1,68 @@
+{
+	"features": {
+		"title": "合作加盟",
+		"list": [{
+			"icon": "&#xe665;",
+			"title": "大量业务机会",
+			"describe": ""
+		}, {
+			"icon": "&#xe665;",
+			"title": "高收入订单",
+			"describe": ""
+		}, {
+			"icon": "&#xe665;",
+			"title": "现金奖励",
+			"describe": ""
+		}, {
+			"icon": "&#xe665;",
+			"title": "现金单当日结算",
+			"describe": ""
+		}, {
+			"icon": "&#xe665;",
+			"title": "7*24小时客服",
+			"describe": ""
+		}, {
+			"icon": "&#xe665;",
+			"title": "无门槛加盟",
+			"describe": ""
+		}]
+	},
+	"applyprocess": [{
+		"icon": "&#xe661;",
+		"describe": "提交申请<br/>在线提交或电话<br/>021-6378-6818"
+	}, {
+		"icon": "&#xe660;",
+		"describe": "获取账号<br/>用于管理车辆和人员"
+	}, {
+		"icon": "&#xe662;",
+		"describe": "下载APP<br/>用于在线接单"
+	}, {
+		"icon": "&#xe65f;",
+		"describe": "等待审核<br/>3个工作日完成"
+	}, {
+		"icon": "&#xe663;",
+		"describe": "专业培训<br/>到场或在线培训"
+	}],
+	"serviceTypes": [{
+		"id": 1,
+		"name": "救援"
+	}, {
+		"id": 2,
+		"name": "维修"
+	}, {
+		"id": 3,
+		"name": "洗车"
+	}, {
+		"id": 4,
+		"name": "加油"
+	}, {
+		"id": 5,
+		"name": "保养"
+	}, {
+		"id": 6,
+		"name": "查勘"
+	}, {
+		"id": 7,
+		"name": "其他"
+	}]
+}

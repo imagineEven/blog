@@ -1,0 +1,119 @@
+{
+	"servicetype": {
+		"title": "服务内容",
+		"describe": "到车服务保护安全，到店服务减少开支，在线服务节省时间",
+		"topFlag": false,
+		"list": [
+			[{
+				"iconImg": "images/iconImg/colour_icon_31.png",
+				"title": "救援"
+			}, {
+				"iconImg": "images/iconImg/colour_icon_30.png",
+				"title": "洗车"
+			}, {
+				"iconImg": "images/iconImg/colour_icon_29.png",
+				"title": "检测"
+			}, {
+				"iconImg": "images/iconImg/colour_icon_28.png",
+				"title": "维修"
+			}, {
+				"iconImg": "images/iconImg/colour_icon_27.png",
+				"title": "加油"
+			}, {
+				"iconImg": "images/iconImg/colour_icon_26.png",
+				"title": "代驾"
+			}, {
+				"iconImg": "images/iconImg/colour_icon_40.png",
+				"title": "违章查询"
+			}, {
+				"iconImg": "images/iconImg/colour_icon_39.png",
+				"title": "违章代缴"
+			}, {
+				"iconImg": "images/iconImg/colour_icon_41.png",
+				"title": "代办年检"
+			}, {
+				"iconImg": "images/iconImg/colour_icon_38.png",
+				"title": "国际驾照"
+			}, {
+				"iconImg": "images/iconImg/colour_icon_32.png",
+				"title": "二手车估价"
+			}, {
+				"iconImg": "images/iconImg/colour_icon_33.png",
+				"title": "维修店查询"
+			}, {
+				"iconImg": "images/iconImg/colour_icon_36.png",
+				"title": "4S店查询"
+			}, {
+				"iconImg": "images/iconImg/colour_icon_37.png",
+				"title": "挪车查询"
+			}, {
+				"iconImg": "images/iconImg/colour_icon_34.png",
+				"title": "机场代泊"
+			}, {
+				"iconImg": "images/iconImg/colour_icon_35.png",
+				"title": "贵宾通道"
+			}]
+		]
+	},
+	"servicedis": [{
+		"title": "到车服务",
+		"list": ["车主或保险公司可多端口发起到车服务需求",
+			"壹路通后台触发AI智能调度和派单",
+			"服务商在线抢单和接单",
+			"多方实时可见服务到达进度",
+			"到达后GPS和车主密码双签",
+			"利用图像、视频等手段记录服务过程并即时回传数据",
+			"车主或指定接收方电子签收",
+			"车主在线评价，服务商查看回复，企业查阅记录"
+		]
+	}, {
+		"title": "到店服务",
+		"list": [
+			"车主多端口发起各类到店服务",
+			"壹路通后台根据车主位置、偏好、交通智能推荐门店",
+			"车主通过沉浸式地图查看附近门店和在线预约",
+			"壹路通向车主发送预约成功提示和门店信息",
+			"车主到店获取服务",
+			"车主可手机查看服务进度或取车时间",
+			"车主在线点评，服务商查看回复，企业查阅记录"
+		]
+	}, {
+		"title": "在线服务",
+		"list": ["车主通过微信或者APP入口进入壹路通车主平台的各类在线服务",
+			"在线填写车辆信息",
+			"获取车辆违章记录或年检代办、违章代缴等服务",
+			"壹路通向车主发送服务完结报告，企业可查看记录"
+		]
+	}],
+	"features": {
+		"title": "产品特色",
+		"list": [
+			[{
+				"icon": "&#xe638;",
+				"title": "服务广",
+				"describe": "覆盖车主日常所需<br class='line_br'/>无需登录多个平台<br class='line_br'/>一个账户轻松管理"
+			}, {
+				"icon": "&#xe639;",
+				"title": "网点多",
+				"describe": "50000+长期合作服务商<br class='line_br'/>省地级市100%覆盖<br class='line_br'/>统一服务标准认证"
+			}, {
+				"icon": "&#xe637;",
+				"title": "响应快",
+				"describe": "GPS定位全网资源分布<br class='line_br'/>综合人车环境智能调度<br class='line_br'/>服务响应时间减少80%"
+			}],
+			[{
+				"icon": "&#xe636;",
+				"title": "体验好",
+				"describe": "减少车主等待和焦虑<br class='line_br'/>友好的交互界面<br class='line_br'/>车主满意度超过95.5％"
+			}, {
+				"icon": "&#xe63a;",
+				"title": "智能化",
+				"describe": "全流程全渠道智能调度<br class='line_br'/>全移动端下单和接单<br class='line_br'/>服务流程多方可视化"
+			}, {
+				"icon": "&#xe635;",
+				"title": "优惠多",
+				"describe": "常年不间断福利活动<br class='line_br'/>多种积分兑换规则<br class='line_br'/>阶梯式会员福利包"
+			}]
+		]
+	}
+}

@@ -1,0 +1,69 @@
+{
+	"chooseReasons": [
+		[{
+			"icon": "&#xe62c",
+			"title": "1ST",
+			"describe": "创新型S2B2C模式实现服务商、企业<br class='line_br'/>和用户在线互联、合作共赢"
+		}, {
+			"icon": "&#xe62e",
+			"title": "100+",
+			"describe": "100+明星企业伙伴，<br class='line_br'/>深度服务中国TOP10金融机构"
+		}, {
+			"icon": "&#xe62d",
+			"title": "2000万＋",
+			"describe": "累计触达2000万+车主<br class='line_br'/>车主满意度超过99.5%"
+		}, {
+			"icon": "&#xe632",
+			"title": "50,000＋",
+			"describe": "50,000+长期合作<br class='line_br'/>服务商，覆盖300+城市"
+		}],
+		[{
+			"icon": "&#xe62a",
+			"title": "100%",
+			"describe": "移动端使用率100%，<br class='line_br'/>服务状态可多个终端同步"
+		}, {
+			"icon": "&#xe630",
+			"title": "80%",
+			"describe": "全智能化调度，<br class='line_br'/>服务响应时间减少80%"
+		}, {
+			"icon": "&#xe62b",
+			"title": "50%",
+			"describe": "救援、查勘成本<br class='line_br'/>大幅降低50%，现场照片实时回传"
+		}, {
+			"icon": "&#xe631",
+			"title": "0",
+			"describe": "自有AI智能风控<br class='line_br'/>平台动态监控，欺诈案件为０"
+		}]
+	],
+	"partners": [{
+		"imgUrl": "images/cooperator/hzhb-1.jpg"
+	}, {
+		"imgUrl": "images/cooperator/hzhb-2.jpg"
+	}, {
+		"imgUrl": "images/cooperator/hzhb-3.jpg"
+	}, {
+		"imgUrl": "images/cooperator/hzhb-4.jpg"
+	}, {
+		"imgUrl": "images/cooperator/hzhb-5.jpg"
+	}, {
+		"imgUrl": "images/cooperator/hzhb-6.jpg"
+	}, {
+		"imgUrl": "images/cooperator/hzhb-7.jpg"
+	}, {
+		"imgUrl": "images/cooperator/hzhb-8.jpg"
+	}, {
+		"imgUrl": "images/cooperator/hzhb-9.jpg"
+	}, {
+		"imgUrl": "images/cooperator/hzhb-10.jpg"
+	}, {
+		"imgUrl": "images/cooperator/hzhb-15.jpg"
+	}, {
+		"imgUrl": "images/cooperator/hzhb-14.jpg"
+	}, {
+		"imgUrl": "images/cooperator/hzhb-13.jpg"
+	}, {
+		"imgUrl": "images/cooperator/hzhb-12.jpg"
+	}, {
+		"imgUrl": "images/cooperator/hzhb-11.jpg"
+	}]
+}

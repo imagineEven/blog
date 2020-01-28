@@ -1,0 +1,39 @@
+{
+	"solution": [
+		[{
+			"image": "images/solution/industry_solu_3.jpg",
+			"title": "车队管理",
+			"describe": "为车队提供智能化接单和车辆调度平台，以及完善的ERP管理系统，帮助车队增加订单，建立更透明、更清晰的人财物管理体系，降低运营成本，提高资源流转效率。",
+			"redirectUrl": "/product/carfleet"
+		}, {
+			"image": "images/solution/industry_solu_5.jpg",
+			"title": "门店管理",
+			"describe": "为汽车服务门店搭建全数字化业务流程、精准营销工具以及ERP管理系统，增加门店订单并管理好客户关系，带来更好的客户黏性，同时提高内部管理效率，降低成本。",
+			"redirectUrl": "/product/storeManage"
+		}],
+		[{
+			"image": "images/solution/industry_solu_7.jpg",
+			"title": "推修服务",
+			"describe": "基于大数据匹配，为事故车辆智能推荐维修门店，帮助服务商获取优质客户，并通过客户精准投放工具，提高车主回店率，为服务商带来更好的品牌口碑和源源不断的订单。",
+			"redirectUrl": "/product/survey"
+		}, {
+			"image": "images/solution/industry_solu_9.jpg",
+			"title": "供应链金融",
+			"describe": "壹路通利用资源整合和智能风控优势，为汽车行业上下游搭建资源聚合平台，帮助汽车服务商获取优质合作伙伴、可靠的征信、充足的扩充资金，把握住车后服务庞大的市场机会，做大做强企业。",
+			"redirectUrl": "",
+			"redirectName": "联系我们"
+		}]
+	],
+	"mechanism": [
+		[{
+			"banner": "images/mechaism/insurance_banner_7.png",
+			"describe": "携手盛世大联，打造O2O车主服务典范",
+			"contentHtml": "<div class='mx_auto'> <h2 class='my_30 font_size36 color_4d line_height15'>携手盛世大联，打造O2O车主服务典范</h2> <p class='my_30 font_size22 color_80 line_height15 text_justify'>盛世大联是国内出色的保险和汽车服务解决方案引领者，与壹路通的合作，有效发挥了双方线上线下的优势，共同为机构和车主打造一站式优质服务体验。</p> <div class='text_center'> <div class='mx_auto img7'> </div> <p class='my_30 font_size22 color_80 line_height15 text_justify'>壹路通与盛世大联建立了多项车主服务合作。盛世大联在服务资源、服务品质管理、机构服务经验等方面具有显著优势，与壹路通领先的人工智能调度技术、友好的用户交互、成熟的互联网运营经验结合，可以支持金融机构等客户在智能化、数字化转型期对于服务和用户运营的各种需求。</p> <div class='my_60 px_50 marks'> <p class='my_30 font_size22 color_80 line_height15 text_justify'>车后市场空间巨大，但服务资源比较分散，行业优质资源的开放融合，不但可以共同分享现有市场大蛋糕，更期待创造更多的增量市场。</p> <p class='my_30 font_size22 color_80 line_height15 text_right'>——盛世大联市场总监</p> </div> <p class='my_30 font_size22 color_80 line_height15 text_justify'></p> </div>"
+		}, {
+			"banner": "images/mechaism/insurance_banner_8.png",
+			"describe": "携手优车主，从获客到转化更高效",
+			"contentHtml": "<div class='mx_auto'> <h2 class='my_30 font_size36 color_4d line_height15'>携手优车主，从获客到转化更高效</h2> <p class='my_30 font_size22 color_80 line_height15 text_justify'>优车主是国内创新型、全方位车主服务平台，在精准营销领域拥有非常成熟的实战经验。</p> <div class='text_center'> <div class='mx_auto img8'> </div> <p class='my_30 font_size22 color_80 line_height15 text_justify'>壹路通与优车主合作，共同为保险、银行、主机厂等企业提供专业的用户运营支持，利用车主增值服务，帮助企业找到用户、提升在线活跃度。我们利用成熟的大数据转化模型，使获客到转化之间的路径更短，降低企业自建团队的人力成本和试错成本，在激烈的市场竞争中拉动续保增长。</p> <div class='my_60 px_50 marks'> <p class='my_30 font_size22 color_80 line_height15 text_justify'>车主与各大平台用户具有非常高的重合度，我们希望发挥车主服务垂直运营的优势，为企业提供真实有价值的数据分析和见解，让企业走出同质化困局。</p> <p class='my_30 font_size22 color_80 line_height15 text_right'>———优车主创始人</p> </div> <p class='my_30 font_size22 color_80 line_height15 text_justify'></p> </div>"
+		}]
+	]
+
+}
