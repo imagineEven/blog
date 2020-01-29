@@ -123,6 +123,7 @@ button{
 .flex_0{flex-shrink: 0;}
 .flex_wrap{flex-wrap: wrap;}
 .flex_reverse{flex-direction: row-reverse;}
+.f-c-c{display: flex;justify-content: center;align-items: center;}
 .space_around{justify-content: space-around;}
 .space_between{justify-content: space-between;}
 .justify_center{justify-content: center;}

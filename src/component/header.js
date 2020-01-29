@@ -11,10 +11,12 @@ import logo_img_black from "../images/logo_black.png";
 class Header extends Component {
   //手机端显隐
   mobileLinkToggle(e) {
+    // 获取被绑定的元素
     let pointer = e.currentTarget;
     let links = document.getElementsByClassName("mobile_links")[0];
     if (links) {
       if (links.className.indexOf("show") > -1) {
+        // className本身就是dom的api;
         links.className = links.className.replace(" show", "");
         pointer.className = pointer.className.replace(" hide", "");
       } else {
@@ -82,20 +84,26 @@ class Header extends Component {
     }
   }
   componentDidMount() {
+    // 当组件之间传递参数的时候，也在props对象里；
     let model = this.props.model;
     this.changeStyle(model);
     //手机端适配 缩放版缩放
+
+    // 移动端的操作；
     if (!commonFn.checkPC()) {
       let metaLink = document.getElementById("deviceviewport");
       let mobile = document.getElementsByClassName("header-mobile-content")[0];
       //logo居中
       let navs = document.getElementsByClassName("mobile_navs")[0];
+      // console.log('navs', navs);
       if (!metaLink || metaLink.content === "") {
         let scale = (document.body.clientWidth / window.screen.width).toFixed(2);
         // mobile.style.zoom = scale;
+        // console.log('scale', scale);
         mobile.style.transform = 'scale(' + scale + ',' + scale + ')';
         mobile.style.transformOrigin = 'left top';
         mobile.style.width = window.screen.width + "px";
+        // 拼接需要大小写；
         navs.style.marginRight = (15 / scale).toFixed(2) + "vw";
       } else {
         // mobile.style.zoom = 1;
@@ -115,42 +123,43 @@ class Header extends Component {
         <div className="content_wrap header-content font_size18 mobileHide">
           <div className="flexbox items_center">
             <Link to="/home" className="flex_0 pointer mr_50">
-              <img className="logo-img" src={this.state.logoImage} alt="yilutong,壹路通"/>
+              {/* <img className="logo-img" src={this.state.logoImage} alt="yilutong,壹路通"/> */}
+              <div className="logo-img f-c-c">Even</div>
             </Link>            
             <ul className="flex_grow relative line_nowrap text_right">
               <li className="inline_block relative">
                 <Link to="/product/data" className={"py_35  inline_block pointer link_nav"+(this.state.activePosition === 1? ' active':'')}>
-                  <span>产品服务</span>
+                  <span>个人</span>
                 </Link>
                 <ul className="absolute_lt py_23 w_100 font_size16 color_fff background_black60 hide">
                   <li className="text_center font_size18">
                     <p className="py_12 inline_block w_100">
-                      <span>产品服务</span>
+                      <span>个人</span>
                     </p>
                   </li>
                   <li className="text_center">
                     <Link to="/product/carowner" className="py_12 inline_block w_100 pointer">
-                      <span>车主服务</span>
+                      <span>日记</span>
                     </Link>
                   </li>
                   <li className="text_center">
                     <Link to="/product/DevOps" className="py_12 inline_block w_100 pointer">
-                      <span>客户运维</span>
+                      <span>技术</span>
                     </Link>
                   </li>
                   <li className="text_center">
                     <Link to="/product/survey" className="py_12 inline_block w_100 pointer">
-                      <span>查勘定损</span>
+                      <span>感语</span>
                     </Link>
                   </li>
                   <li className="text_center">
                     <Link to="/product/transcar" className="py_12 inline_block w_100 pointer">
-                      <span>整车驳运</span>
+                      <span>经历 </span>
                     </Link>
                   </li>
                   <li className="text_center">
                     <Link to="/product/carfleet" className="py_12 inline_block w_100 pointer">
-                      <span>车队管理</span>
+                      <span>生活</span>
                     </Link>
                   </li>  
                   <li className="text_center">
@@ -162,12 +171,12 @@ class Header extends Component {
               </li>
               <li className="inline_block relative">
                 <Link to="/industry/merchant" className={"py_35  inline_block pointer link_nav"+(this.state.activePosition === 2? ' active':'')}>
-                  <span>行业方案</span>
+                  <span>CSS</span>
                 </Link>
                 <ul className="absolute_lt py_23 w_100 font_size16 color_fff background_black60 hide">  
                   <li className="text_center font_size18">
                     <p className="py_12 inline_block w_100">
-                      <span>行业方案</span>
+                      <span>CSS</span>
                     </p>
                   </li>
                   <li className="text_center">
@@ -194,12 +203,12 @@ class Header extends Component {
               </li>
               <li className="inline_block relative">
                 <Link to="/technology/intelligence" className={"py_35  inline_block pointer link_nav"+(this.state.activePosition === 3? ' active':'')}>
-                  <span>壹路通科技</span>
+                  <span>JavaScript</span>
                 </Link>
                 <ul className="absolute_lt py_23 w_100 font_size16 color_fff background_black60 hide">
                   <li className="text_center font_size18">
                     <p className="py_12 inline_block w_100">
-                      <span>壹路通科技</span>
+                      <span>JavaScript</span>
                     </p>
                   </li> 
                   <li className="text_center">
@@ -231,12 +240,12 @@ class Header extends Component {
               </li>*/}
               <li className="inline_block relative">
                 <Link to="/about/introduce" className={"py_35  inline_block pointer link_nav"+(this.state.activePosition === 5? ' active':'')}>
-                  <span>关于我们</span>
+                  <span>其他</span>
                 </Link>
                 <ul className="absolute_lt py_23 w_100 font_size16 color_fff background_black60 hide">  
                   <li className="text_center font_size18">
                     <p className="py_12 inline_block w_100">
-                      <span>关于我们</span>
+                      <span>其他</span>
                     </p> 
                   </li>
                   <li className="text_center">
