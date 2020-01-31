@@ -546,6 +546,7 @@
 	padding-top: 30px;
 }
 .joins_apply_wrap .star.error:before{
+	/* xuexi attr */
 	content: attr(errmsg);
 	color: #bd272d;
 	font-size:14px;

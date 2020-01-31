@@ -45,7 +45,10 @@ class PagePart extends Component {
     //获取父类star
     let parentStar = inputDom,
       starFlag = false;
+    // console.log('parentStar.parentNode',parentStar.parentNode)
+    // 循环查找有start的父节点，并赋值；do{}while();
     do {
+      // xuexi parentNode
       parentStar = parentStar.parentNode;
       if (!parentStar) {
         starFlag = true;
@@ -79,6 +82,7 @@ class PagePart extends Component {
       }
     }
   }
+  // 表单提交；
   applyFormPost() {
     let _this = this;
     let formData = commonFn.getFormData("#applyForm");
@@ -114,6 +118,7 @@ class PagePart extends Component {
     //信息填写不全 或正在申请
     if (errorFlag || !_this.state.applyAjaxBool) return false;
 
+    // 重新创建表单，用来提交；
     let postData = new FormData();
     postData.append("userid", formData.phone);
     postData.append("username", formData.name);

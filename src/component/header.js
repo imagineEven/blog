@@ -124,7 +124,7 @@ class Header extends Component {
           <div className="flexbox items_center">
             <Link to="/home" className="flex_0 pointer mr_50">
               {/* <img className="logo-img" src={this.state.logoImage} alt="yilutong,壹路通"/> */}
-              <div className="logo-img f-c-c">Even</div>
+              <div className="logo-img f-c-c">Even小舍</div>
             </Link>            
             <ul className="flex_grow relative line_nowrap text_right">
               <li className="inline_block relative">
@@ -277,11 +277,11 @@ class Header extends Component {
               </li>
             </ul>
             <div className="flex_0 btn-wrap ml_25">
-                <a href="http://www.yilutong.com/uniway/login/in" target="_bank">
+                {/* <a href="http://www.yilutong.com/uniway/login/in" target="_bank">
                   <button type="button" className="noappearance background_1a color_orange border_radius_6 btn mr_15">登录</button>
-                </a>
+                </a> */}
                 <div className="inline_block relative">              
-                  <button type="button" className="noappearance background_orange color_fff border_radius_6 btn"  onClick={this.toggleContactAlert.bind(this)}>联系销售</button>
+                  <button type="button" className="noappearance background_orange color_fff border_radius_6 btn"  onClick={this.toggleContactAlert.bind(this)}>联系我</button>
                   <div className="absolute_rt px_25 py_30 background_fff box_shadow_2 alert_contact" style={{"display":(this.state.contactAlertFlag?"block":"none")}}>
                     <i className="absolute_rt iconfont px_20 py_20 color_80 pointer" onClick={this.hideContactAlert.bind(this)}>&#xe65c;</i>
                     <div className="flexbox items_center mb_30">
@@ -290,7 +290,8 @@ class Header extends Component {
                         </div>
                         <div className="flex_grow font_size18 color_4d">
                           <p className="mb_5">手机</p>
-                          <a href="tel:15618583212" className="color_orange">156-1858-3212</a>
+                          {/* 拨打电话功能 */}
+                          <a href="tel:17601302923" className="color_orange">176-0130-2923</a>
                         </div>
                     </div>
                     <div className="flexbox items_center mb_30">
@@ -299,7 +300,7 @@ class Header extends Component {
                         </div>
                         <div className="flex_grow font_size18 color_4d">
                           <p className="mb_5">固话</p>
-                          <a href="tel:02163590171" className="color_orange">021-6359-0171</a>
+                          <a href="tel:04695390221" className="color_orange">0469-5390221</a>
                         </div>
                     </div>
                     <div className="flexbox items_center">
@@ -308,7 +309,7 @@ class Header extends Component {
                         </div>
                         <div className="flex_grow font_size18 color_4d">
                           <p className="mb_5">邮箱</p>
-                          <a href="mailto:amin@yilutong.com" className="color_orange">amin@yilutong.com</a>
+                          <a href="mailto:1016000928@qq.com" className="color_orange">1016000928@qq.com</a>
                         </div>
                     </div>
                   </div>
@@ -330,11 +331,12 @@ class Header extends Component {
               <img className="logo-img" src={this.state.logoImage} alt="yilutong,壹路通"/>
             </Link>
             <div className="flex_0 btn-mobile-wrap">
-                <a href="http://www.yilutong.com/uniway/login/in" target="_bank">
+                {/* 在新的页面打开链接 */}
+                {/* <a href="http://www.yilutong.com/uniway/login/in" target="_bank">
                   <button type="button" className="noappearance background_1a color_orange border_radius_4 btn mr_5">登录</button>
-                </a>
+                </a> */}
                 <div className="inline_block relative">              
-                  <button type="button" className="noappearance background_orange color_fff border_radius_4 btn"  onClick={this.toggleContactAlert.bind(this)}>联系销售</button>
+                  <button type="button" className="noappearance background_orange color_fff border_radius_4 btn"  onClick={this.toggleContactAlert.bind(this)}>联系我</button>
                   <div className="absolute_rt px_25 py_30 background_fff box_shadow_2 alert_contact" style={{"display":(this.state.contactAlertFlag?"block":"none")}}>
                     <i className="absolute_rt iconfont px_20 py_20 color_80 pointer" onClick={this.hideContactAlert.bind(this)}>&#xe65c;</i>
                     <div className="flexbox items_center mb_30">
