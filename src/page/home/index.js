@@ -225,6 +225,7 @@ class home extends Component {
         <CommonHeader model={this.state.headerModel} />
         {this.state.fullPageHtmlList}
         {this.state.promotionalVideoFlag?<AlertVideo hideVideoCallback={this.hidePromotionalVideo.bind(this)}/>:''}
+        {/* xuexi 通过控制html的有无来显示和隐藏；*/}
         {this.state.alertHtml}
       </div>
     );

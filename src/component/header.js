@@ -240,12 +240,12 @@ class Header extends Component {
               </li>*/}
               <li className="inline_block relative">
                 <Link to="/about/introduce" className={"py_35  inline_block pointer link_nav"+(this.state.activePosition === 5? ' active':'')}>
-                  <span>其他</span>
+                  <span>HTML</span>
                 </Link>
                 <ul className="absolute_lt py_23 w_100 font_size16 color_fff background_black60 hide">  
                   <li className="text_center font_size18">
                     <p className="py_12 inline_block w_100">
-                      <span>其他</span>
+                      <span>HTML</span>
                     </p> 
                   </li>
                   <li className="text_center">

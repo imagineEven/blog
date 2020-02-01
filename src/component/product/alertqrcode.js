@@ -30,7 +30,7 @@ class AlertQrcode extends Component {
     let html = (
       <div className="fixed_lt w_100 h_100 flexbox items_center justify_center background_black80 " style={{"zIndex":'180'}} onClick={_this.hideAlert.bind(_this)}>
         <div className="text_center">
-          <img src={alertImg} style={{"widh":'200px',"height":'200px'}} alt="yilutong,壹路通"/>
+          <img src={alertImg} style={{"widh":'200px',"height":'200px'}} alt="Even"/>
           <p className="mt_20 font_size22 color_fff line_height15" dangerouslySetInnerHTML={{__html: alertMsg || ''}}></p>
         </div>
       </div>
