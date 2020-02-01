@@ -23,7 +23,7 @@ class AlertQrcode extends Component {
       alertMsg = "微信扫一扫，运车就用驳运通";
     } else if (type && type === 5) {
       alertImg = require("../../images/ylt_wx_jy_qrcode.png");
-      alertMsg = "扫码发起服务";
+      alertMsg = "扫码加微信";
     } else {
       return;
     }
