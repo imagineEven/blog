@@ -2,7 +2,7 @@
 .header-wrap.type1{
 	color: #4d4d4d;
 }
-.header-wrap.type2,.header-wrap.type2 .header-mobile-content{
+.header-wrap.type2,.header-wrap.type2 {
 	background-color: rgba(0,0,0,0.5);
 }
 .mobileStyle .header-wrap.type2{
@@ -595,7 +595,7 @@
 .mobile_navs .one,.mobile_navs .two,.mobile_navs .three{
 	width: 20px;
 	height: 2px;
-	background: #FFFFFF;
+	background: #ffaf22;
 	-webkit-transition: all 0.2s linear;
 	-moz-transition: all 0.2s linear;
 	-ms-transition: all 0.2s linear;
@@ -851,4 +851,15 @@
 	.home_part_1,.home_part_2,.home_part_3,.home_part_4{
 		zoom:0.7;
 	}
+}
+
+/* Even add */
+/* 个人 */
+#container {
+	width: 65%;
+	min-width: 640px;
+	max-width: 960px;
+	margin: 0 auto;
+	background-color: #f5f5d5;
+	padding-top: 100px;
 }

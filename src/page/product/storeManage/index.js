@@ -8,6 +8,7 @@ import ServiceType from '../../../component/product/servicetype';
 import AlertQrcode from '../../../component/product/alertqrcode';
 import Part1 from './part_1';
 import Part2 from './part_2';
+import LinkOne from './linkOne'
 import pageData from "./pageData.json";
 
 class Service extends Component {
@@ -58,14 +59,15 @@ class Service extends Component {
     return (
       <div>
         <CommonHeader model="2"  position="1" />
-        <Part1 showQrcodeAlert={this.showAlert.bind(this)} />
-        <div className="mb_60">
+        {/* <Part1 showQrcodeAlert={this.showAlert.bind(this)} /> */}
+        {/* <div className="mb_60">
            <ServiceType  data={this.state.servicetype}/>
-        </div>    
-        <Part2  showQrcodeAlert={this.showAlert.bind(this)}/>
-        <div className="mb_60">
+        </div>     */}
+        {/* <Part2  showQrcodeAlert={this.showAlert.bind(this)}/> */}
+        {/* <div className="mb_60">
           <Features data={this.state.features}/>
-        </div>        
+        </div>         */}
+        <LinkOne />
         <CommonFooter />
         {this.state.alertHtml}
       </div>

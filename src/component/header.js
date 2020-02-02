@@ -164,7 +164,7 @@ class Header extends Component {
                   </li>  
                   <li className="text_center">
                     <Link to="/product/storeManage" className="py_12 inline_block w_100 pointer">
-                      <span>门店管理</span>
+                      <span>连接</span>
                     </Link>
                   </li>             
                 </ul>
@@ -328,7 +328,7 @@ class Header extends Component {
               </div>
             </div>
             <Link to="/home" className="flex_grow pointer text_center">
-              <img className="logo-img" src={this.state.logoImage} alt="yilutong,壹路通"/>
+              {/* <img className="logo-img" src={this.state.logoImage} alt="yilutong,壹路通"/> */}
             </Link>
             <div className="flex_0 btn-mobile-wrap">
                 {/* 在新的页面打开链接 */}

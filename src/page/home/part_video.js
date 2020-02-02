@@ -39,6 +39,7 @@ class PartVideo extends Component {
     return (
       <div className="fixed_lt w_100 vh_100 background_black80 promotional_video" style={{"zIndex":'150'}}>
         <div className="absolute_center">
+          {/* 图标库 */}
           <i className="iconfont absolute_rt font_size16 color_333 text_center pointer" onClick={this.hideVideo.bind(this)}>&#xe682;</i>
           <div className="video_wrap">
             <video className="w_100 h_100" src="http://one-road-voice.oss-cn-hangzhou.aliyuncs.com/yilutong.mp4" poster={require("../../images/promotional_video_bg_img.jpg")} controls="controls"></video>
