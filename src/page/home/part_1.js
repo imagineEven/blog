@@ -80,7 +80,7 @@ class PagePart extends Component {
     return (
       <div className="home_part_1">
         <div className="absolute_lb title" style={{"zIndex":'10'}}>
-          <h2 className="font_size80 color_fff text_shadow_1">Even <span className="font_size45" style={{"verticalAlign": "23%"}}>|</span> 博客园</h2>
+          <h2 className="font_size80 color_fff text_shadow_1">Even <span className="font_size45" style={{"verticalAlign": "23%"}}>|</span> 博客</h2>
           <h2 className="font_size50 color_fff font_lighter text_shadow_1 mt_20">嘻嘻擦擦蹦</h2>
           <div className="mt_20 btn-wrap font_size0">
             <button className="noappearance py_10 btn_orange font_size20 line_heigh12 mr_40" type="button" onClick={this.showJiuyuanAlert.bind(this)}>加我微信<i className="iconfont font_size24">&#xe681;</i></button>

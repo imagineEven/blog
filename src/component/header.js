@@ -129,12 +129,12 @@ class Header extends Component {
             <ul className="flex_grow relative line_nowrap text_right">
               <li className="inline_block relative">
                 <Link to="/product/data" className={"py_35  inline_block pointer link_nav"+(this.state.activePosition === 1? ' active':'')}>
-                  <span>个人</span>
+                  <span>生活创作</span>
                 </Link>
                 <ul className="absolute_lt py_23 w_100 font_size16 color_fff background_black60 hide">
                   <li className="text_center font_size18">
                     <p className="py_12 inline_block w_100">
-                      <span>个人</span>
+                      <span>生活创作</span>
                     </p>
                   </li>
                   <li className="text_center">
@@ -164,7 +164,7 @@ class Header extends Component {
                   </li>  
                   <li className="text_center">
                     <Link to="/product/storeManage" className="py_12 inline_block w_100 pointer">
-                      <span>连接</span>
+                      <span>好文</span>
                     </Link>
                   </li>             
                 </ul>
