@@ -78,7 +78,7 @@ class PagePart extends Component {
           nihao
           <br/>
           <div id="title">一、css连接</div>
-          <BlockQuote />
+          <BlockQuote structureName="css"/>
           nihao
           <br/>
           nihao
