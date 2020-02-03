@@ -25,9 +25,12 @@ class PagePart extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      key: [
-        {key: 'value', start: '', end: ''}
-      ]
+      css:{
+        'box':[
+          {selector: '.box1', key: 'display', value: 'none', start: '//我是第一个注释', end: '/#/我是第二个注释'},
+          {selector: '.box1',key: 'font-size', value: '12px', start: '字体属性', end: '/字体值/'},
+        ]
+      }
     };
   }
   componentWillMount() {}
@@ -49,8 +52,27 @@ class PagePart extends Component {
             好文推荐：连接篇
           </div>
           <Auto createdTime="2020年2月2日"/>
+          <div id="preface-wrap">
+            <div id="preface">前言</div>
+            老了脑容量严重溢出，昨天看过的技术文章，今天可能就忘记了，
+            不知道大家有没有跟我一样的经历，要是有...我心里还能好受些，哈哈！！！
+            连浏览器里收藏了很多关于技术的文章，种类的增多也无法满足自己的需求，
+            所以有了下面关于外联的笔记，分类功能等方便以后的查看和管理。</div>
+
+          <p>老了脑容量严重溢出，昨天看过的技术文章，今天可能就忘记了，
+            不知道大家有没有跟我一样的经历，要是有...我心里还能好受些，哈哈！！！
+            连浏览器里收藏了很多关于技术的文章，种类的增多也无法满足自己的需求，
+            所以有了下面关于外联的笔记，分类功能等方便以后的查看和管理。
+          </p>
           <p>我是陈学伟 这个是我的 我是陈学伟 <code id="flag">你是什么鬼</code>这个是我的 我是陈学伟 这个是我的 我是陈学伟 这个是我的 我是陈学伟 这个是我的 我是陈学伟 这个是我的 我是陈学伟 这个是我的 我是陈学伟 这个是我的 我是陈学伟 这个是我的</p>
-          <p>第一篇文章</p>
+          <p>第一个博客，想了很久css代码块该怎么展示才能让读者看的更舒服美观，
+            也借鉴了阮一峰大神的博客样式表，才有了现在的灵感，
+            自己封装的组件感觉还是比较繁琐，先对付着用吧，
+            后面如果想到简化版的在去更新，还是要给自己写一个关于样式表组件的使用说明，
+            一是为了怕自己鱼的记忆，还要翻原来的代码一点点的看，
+            二是博客确实需要花费很大的时间和经历，所以也是留给以后的自己在续写博客的时候方便一些。
+            确实随着年龄的增长记忆是越来越差了。
+          </p>
           <p>第一篇文章 <strong>这是一个加粗字体</strong>，<a href="https://www.baidu.com/" target="_blank">这是一个连接</a>都挺好的</p>
           <div id="pre">
             <pre>
@@ -78,7 +100,7 @@ class PagePart extends Component {
           nihao
           <br/>
           <div id="title">一、css连接</div>
-          <BlockQuote structureName="css"/>
+          <BlockQuote structureName="css" content={this.state.css.box}/>
           nihao
           <br/>
           nihao

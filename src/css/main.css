@@ -891,7 +891,7 @@
 	color: #567 !important;
 	font-size: 1em;
 	margin-top: .6em;
-  line-height: 180%;
+  line-height: 195%;
   margin-left: .8em;
 }
 
@@ -937,6 +937,30 @@
 	background-color: pink;
 	border-radius: 5px;
 	margin: auto 3px;
+}
+#container #preface {
+	color: #6e6e6e;
+	/* padding-left: 1em; */
+}
+#container #preface-wrap {
+	font-weight: 500;
+	/* 通用margin padding line-height */
+	padding: 1em;
+	margin: 1em .8em;
+	line-height: 1.8em;
+	border-bottom: none;
+	background-color: #aad2f0;
+	-moz-border-radius: 1em;
+	-webkit-border-radius: 1em;
+	border-radius: 1em;
+	-moz-box-shadow: inset 0px 1px 0px 0px #eee;
+	-webkit-box-shadow: inset 0px 1px 0px 0px #eee;
+	box-shadow: inset 0px 1px 0px 0px #eee;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #aad2f0), color-stop(1, #8bc1ed));
+	background: -moz-linear-gradient(center top, #aad2f0 5%, #8bc1ed 100%);
+	background-color: #aad2f0;
+	border: 1px solid #dcdcdc;
+	text-shadow: 1px 1px 0px #eee;
 }
 
 #nihao {
