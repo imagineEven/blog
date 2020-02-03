@@ -2,6 +2,7 @@ import React, {
   Component
 } from 'react'
 import Auto from '../../../component/auth.js';
+import BlockQuote from '../../../component/blockquote.js';
 class PagePart extends Component {
   //方法
   //显示alert
@@ -77,6 +78,7 @@ class PagePart extends Component {
           nihao
           <br/>
           <div id="title">一、css连接</div>
+          <BlockQuote />
           nihao
           <br/>
           nihao

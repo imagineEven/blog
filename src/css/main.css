@@ -911,6 +911,24 @@
 	overflow: auto;
 }
 
+#container #pre .selector {
+	color: #690;
+}
+#container #pre .comment {
+	color: #999;
+	margin-left: 1em;
+}
+#container #pre .property {
+	color: #905;
+	margin-left: 1em;
+}
+#container #pre .value {
+	margin-left: .4em;	
+}
+#container #pre .punctuation {
+	color: #999;
+}
+
 #container #flag {
 	display: inline-block;
 	padding-left: 5px;

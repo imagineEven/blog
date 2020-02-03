@@ -1,0 +1,71 @@
+import React, {
+  Component
+} from 'react';
+import {
+  Link
+} from 'react-router-dom';
+
+class Auth extends Component {
+  //方法
+
+  //页面跳转
+  navigateTo(el) {
+    var href = el.currentTarget.getAttribute("href");
+    if (!href) {
+      alert("服务就快开放啦，敬请期待~");
+      el.preventDefault();
+      return false;
+    } else {
+      return true;
+    }
+  }
+
+  constructor(props) {
+    super(props);
+    this.state = {};
+  }
+  componentWillMount() {
+
+    // console.log(this.props, "componentWillMount");
+    // console.log(new Date().getTime())
+  }
+  componentDidMount() {
+    // console.log(this.state, "componentDidMount");
+    // console.log(new Date().getTime())
+  }
+  componentWillReceiveProps() {
+    //props更新
+    //约1s 调用一次
+  }
+  componentWillUnmount() {
+    //组件删除    
+    return false
+  }
+
+  render() {
+    return (
+      <div className="blockquote-wrap">
+        <div id="pre">
+          <pre>
+            <div className="mb_5">
+              <span className="selector">{`.box`}</span>
+              <span className="punctuation">{`{`}</span>
+            </div>
+            <div className="mb_5">
+              <span className="comment">{`//我是注释`}</span>
+            </div>
+            <div className="mb_5">
+              <span className="property">{`display`}</span>
+              <span className="punctuation">{`:`}</span>
+              <span className="value">{`none`}</span>
+              <span className="comment">{`//我也是注释`}</span>
+            </div>
+          </pre>
+        </div>
+
+      </div>
+    );
+  }
+}
+
+export default Auth;
