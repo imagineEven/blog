@@ -1,9 +1,9 @@
 import React, {
   Component
 } from 'react';
-import {
-  Link
-} from 'react-router-dom';
+// import {
+//   Link
+// } from 'react-router-dom';
 
 class Auth extends Component {
   //方法
@@ -58,13 +58,13 @@ class Auth extends Component {
   }
 
   createdJsHtml() {
-    let JsHtml = (
-      <div id="pre">
-        <pre>
+    // let JsHtml = (
+    //   <div id="pre">
+    //     <pre>
 
-        </pre>
-      </div>
-    )
+    //     </pre>
+    //   </div>
+    // )
   }
 
   createdListHtml() {
@@ -100,9 +100,9 @@ class Auth extends Component {
 
     let structureName = this.props.structureName;
     let content = this.props.content;
-    if (structureName == 'css') {
+    if (structureName === 'css') {
       this.cretedCssHtml(content);
-    } else if (structureName == 'list') {
+    } else if (structureName === 'list') {
       this.createdListHtml();
     }
     // console.log(this.state, "componentDidMount");

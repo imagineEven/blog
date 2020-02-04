@@ -3,11 +3,11 @@ import React, {
 } from 'react'
 import CommonHeader from '../../../component/header';
 import CommonFooter from '../../../component/footer';
-import Features from '../../../component/product/features';
-import ServiceType from '../../../component/product/servicetype';
+// import Features from '../../../component/product/features';
+// import ServiceType from '../../../component/product/servicetype';
 import AlertQrcode from '../../../component/product/alertqrcode';
-import Part1 from './part_1';
-import Part2 from './part_2';
+// import Part1 from './part_1';
+// import Part2 from './part_2';
 import LinkOne from './linkOne'
 import pageData from "./pageData.json";
 

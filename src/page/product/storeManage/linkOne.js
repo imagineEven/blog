@@ -73,7 +73,7 @@ class PagePart extends Component {
             二是博客确实需要花费很大的时间和经历，所以也是留给以后的自己在续写博客的时候方便一些。
             确实随着年龄的增长记忆是越来越差了。
           </p>
-          <p>第一篇文章 <strong>这是一个加粗字体</strong>，<a href="https://www.baidu.com/" target="_blank">这是一个连接</a>都挺好的</p>
+          {/* <p>第一篇文章 <strong>这是一个加粗字体</strong>，<a href="https://www.baidu.com/" target="_blank">这是一个连接</a>都挺好的</p> */}
           <div id="pre">
             <pre>
               <div>
