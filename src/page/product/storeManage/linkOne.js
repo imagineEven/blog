@@ -3,6 +3,8 @@ import React, {
 } from 'react'
 import Auto from '../../../component/auth.js';
 import BlockQuote from '../../../component/blockquote.js';
+import commonFn from '../../../config/common.js';
+
 class PagePart extends Component {
   //方法
   //显示alert
@@ -34,7 +36,15 @@ class PagePart extends Component {
     };
   }
   componentWillMount() {}
-  componentDidMount() {}
+  componentDidMount() {
+    // 适配手机字体方案；
+    if (!commonFn.checkPC()) {
+      let container = document.getElementById('container');
+      container.style.fontSize = '30px';
+      container.style.width = '90%';
+      // console.log('container.style.fontSize', container.style.fontSize);
+    }
+  }
   componentWillReceiveProps() {
     //props更新
     //约1s 调用一次
