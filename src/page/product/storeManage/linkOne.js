@@ -36,15 +36,7 @@ class PagePart extends Component {
     };
   }
   componentWillMount() {}
-  componentDidMount() {
-    // 适配手机字体方案；
-    if (!commonFn.checkPC()) {
-      let container = document.getElementById('container');
-      container.style.fontSize = '30px';
-      container.style.width = '90%';
-      // console.log('container.style.fontSize', container.style.fontSize);
-    }
-  }
+  componentDidMount() {}
   componentWillReceiveProps() {
     //props更新
     //约1s 调用一次

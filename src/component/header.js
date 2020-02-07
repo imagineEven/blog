@@ -83,14 +83,23 @@ class Header extends Component {
       mobileFlag: mobileFlag
     }
   }
+
+  setFontSize() {
+    //手机端适配 缩放版缩放
+    let container = document.getElementById('container');
+    if (!container) return;
+    container.style.fontSize = '30px';
+    container.style.width = '90%';
+  }
+
   componentDidMount() {
     // 当组件之间传递参数的时候，也在props对象里；
     let model = this.props.model;
     this.changeStyle(model);
-    //手机端适配 缩放版缩放
 
     // 移动端的操作；
     if (!commonFn.checkPC()) {
+      this.setFontSize();
       let metaLink = document.getElementById("deviceviewport");
       let mobile = document.getElementsByClassName("header-mobile-content")[0];
       //logo居中
