@@ -15,6 +15,7 @@
 	display: block;
 }
 .header-wrap .header-mobile-content{
+	background-color: rgba(0,0,0,0.5);
 	display: none;
 }
 .header-content a:hover,
