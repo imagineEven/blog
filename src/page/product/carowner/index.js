@@ -38,10 +38,30 @@ class Service extends Component {
     this.state = {
       features: pageData.features,
       servicetype: pageData.servicetype,
-      alertHtml: ''
+      alertHtml: '',
+      blogHtml: '',
     };
   }
-  componentWillMount() {}
+  
+  openNewView() {
+    window.open(`${window.location.host}/#/product/DevOps`)
+  }
+
+  componentWillMount() {
+    let html = (
+      <div id="container">
+        <div id="container-inner">
+          <div id="title">日记篇</div>
+          <div id="preface-wrap" onClick={this.openNewView.bind(this)}>
+            <div><a href={window.location.host + '/#/product/DevOps'} target="_blank">笔记开发文档</a></div>
+          </div>
+        </div>
+      </div>
+    )
+    this.setState({
+      blogHtml: html,
+    })
+  }
   componentDidMount() {
     document.title = "车主服务";
   }
@@ -58,14 +78,15 @@ class Service extends Component {
     return (
       <div>
         <CommonHeader model="2"  position="1" />
-        <Part1 showQrcodeAlert={this.showAlert.bind(this)}/>
+        {this.state.blogHtml}
+        {/* <Part1 showQrcodeAlert={this.showAlert.bind(this)}/>
         <div className="mb_60 scrollify_anchor_point">
            <ServiceType  data={this.state.servicetype}/>
         </div>    
         <Part2 showQrcodeAlert={this.showAlert.bind(this)}/>
         <div className="mb_60 scrollify_anchor_point">
           <Features data={this.state.features}/>
-        </div>        
+        </div>         */}
         <CommonFooter />
         {this.state.alertHtml}
       </div>
