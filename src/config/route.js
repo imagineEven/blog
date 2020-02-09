@@ -12,6 +12,7 @@ import home from "../page/home"
 import no_match from "../page/404"
 import product_data from "../page/product/data"
 import product_carowner from "../page/product/carowner"
+import product_devDocument from "../page/product/carowner/devDocument"
 import product_transcar from "../page/product/transcar"
 import product_survey from "../page/product/survey"
 import product_devOps from "../page/product/devOps"
@@ -65,6 +66,7 @@ class RouteLink extends Component {
           <Route exact path="/home/:id" component={home} />
           <Route exact path="/product/data" component={product_data} />
           <Route exact path="/product/carowner" component={product_carowner} />
+          <Route exact path="/product/devDocument" component={product_devDocument} />
           <Route exact path="/product/transcar" component={product_transcar} />
           <Route exact path="/product/survey" component={product_survey} />
           <Route exact path="/product/DevOps" component={product_devOps} />
