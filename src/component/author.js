@@ -5,7 +5,7 @@ import {
   Link
 } from 'react-router-dom';
 
-class Auth extends Component {
+class Author extends Component {
   //方法
 
   //页面跳转
@@ -54,4 +54,4 @@ class Auth extends Component {
   }
 }
 
-export default Auth;
+export default Author;

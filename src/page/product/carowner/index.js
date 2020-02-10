@@ -44,7 +44,7 @@ class Service extends Component {
   }
   
   openNewView() {
-    window.open(`${window.location.host}/#/product/DevOps`)
+    window.open(`${window.location.host}/#/product/devDocument`)
   }
 
   componentWillMount() {
@@ -53,7 +53,10 @@ class Service extends Component {
         <div id="container-inner">
           <div id="title">日记篇</div>
           <div id="preface-wrap" onClick={this.openNewView.bind(this)}>
-            <div><a href={window.location.host + '/#/product/DevOps'} target="_blank">笔记开发文档</a></div>
+            <div>
+              {/* <a href={window.location.host + '/#/product/DevOps'} target="_blank">笔记开发文档</a> */}
+              笔记开发文档
+            </div>
           </div>
         </div>
       </div>

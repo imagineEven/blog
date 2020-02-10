@@ -57,14 +57,15 @@ class Auth extends Component {
     })
   }
 
-  createdJsHtml() {
-    // let JsHtml = (
-    //   <div id="pre">
-    //     <pre>
-
-    //     </pre>
-    //   </div>
-    // )
+  createdHtml(content) {
+    let html = (
+      <div id="pre" style={{"color": "#6e6e6e"}}>
+        <pre>
+          {content}
+        </pre>
+      </div>
+    )
+    this.setState({html})
   }
 
   createdListHtml() {
@@ -104,6 +105,8 @@ class Auth extends Component {
       this.cretedCssHtml(content);
     } else if (structureName === 'list') {
       this.createdListHtml();
+    } else {
+      this.createdHtml(content);
     }
     // console.log(this.state, "componentDidMount");
     // console.log(new Date().getTime())

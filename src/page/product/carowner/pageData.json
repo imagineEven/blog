@@ -55,6 +55,9 @@
 			}]
 		]
 	},
+	"devDocumment": {
+		"container":"1"
+	},
 	"servicedis": [{
 		"title": "到车服务",
 		"list": ["车主或保险公司可多端口发起到车服务需求",
