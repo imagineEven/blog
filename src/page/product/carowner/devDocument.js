@@ -3,8 +3,9 @@ import React, {
 } from 'react'
 import AlertQrcode from '../../../component/product/alertqrcode';
 import Author from '../../../component/author.js';
-import { containerData, authorData, blockData, prefaceData, flagData, cssData, cssJsonData } from './pageData.js';
+import * as data from './pageData.js';
 import BlockQuote from '../../../component/blockquote.js';
+import Preface from '../../../component/Even/preface.js';
 
 class DevDocument extends Component {
   //方法
@@ -58,19 +59,20 @@ class DevDocument extends Component {
             笔记开发文档
           </div>
           <Author createdTime="2020年2月10日"/>
+          <Preface content={data.preface}/>
           <p>开发笔记结构</p>
-          <BlockQuote structureName="" content={containerData}/>
+          <BlockQuote structureName="" content={data.containerData}/>
           <p>高亮代码</p>
-          <BlockQuote structureName="" content={flagData}/>
+          <BlockQuote structureName="" content={data.flagData}/>
           <p>作者组件</p>
-          <BlockQuote structureName="" content={authorData}/>
+          <BlockQuote structureName="" content={data.authorData}/>
           <p>代码块组件</p>
-          <BlockQuote structureName="" content={blockData}/>
+          <BlockQuote structureName="" content={data.blockData}/>
           <p>前言组件</p>
-          <BlockQuote structureName="" content={prefaceData}/>
+          <BlockQuote structureName="" content={data.prefaceData}/>
           <p>css高亮数据结构</p>
-          <BlockQuote structureName="" content={cssJsonData}/>
-          <BlockQuote structureName="css" content={cssData}/>
+          <BlockQuote structureName="" content={data.cssJsonData}/>
+          <BlockQuote structureName="css" content={data.cssData}/>
         </div>
       </div>
     );

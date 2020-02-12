@@ -4,6 +4,7 @@ import React, {
 import Author from '../../../component/author.js';
 import BlockQuote from '../../../component/blockquote.js';
 import Preface from '../../../component/Even/preface.js';
+import * as data from './pageData.js';
 // import commonFn from '../../../config/common.js';
 
 class PagePart extends Component {
@@ -60,17 +61,8 @@ class PagePart extends Component {
             好文推荐：连接篇
           </div>
           <Author createdTime="2020年2月2日"/>
-          <div id="preface-wrap">
-            <div id="preface">前言</div>
-            老了脑容量严重溢出，昨天看过的技术文章，今天可能就忘记了，
-            不知道大家有没有跟我一样的经历，要是有...我心里还能好受些，哈哈！！！
-            连浏览器里收藏了很多关于技术的文章，种类的增多也无法满足自己的需求，
-            所以有了下面关于外联的笔记，分类功能等方便以后的查看和管理。
-          </div>
-
-          <Preface content={`sdf`}/>
-
-          <p>我是陈学伟 这个是我的 我是陈学伟 <code id="flag">你是什么鬼</code>这个是我的 我是陈学伟 这个是我的 我是陈学伟 这个是我的 我是陈学伟 这个是我的 我是陈学伟 这个是我的 我是陈学伟 这个是我的 我是陈学伟 这个是我的 我是陈学伟 这个是我的</p>
+          <Preface content={data.preface}/>
+          
           <p>第一个博客，想了很久css代码块该怎么展示才能让读者看的更舒服美观，
             也借鉴了阮一峰大神的博客样式表，才有了现在的灵感，
             自己封装的组件感觉还是比较繁琐，先对付着用吧，

@@ -43,6 +43,16 @@ let cssData = [
   {selector: '.box1',key: 'font-size', value: '12px', start: '字体属性', end: '/字体值/'},
 ]
 
+let preface = `
+第一个博客，想了很久css代码块该怎么展示才能让读者看的更舒服美观，
+也借鉴了阮一峰大神的博客样式表，才有了现在的灵感，
+自己封装的组件感觉还是比较繁琐，先对付着用吧，
+后面如果想到简化版的在去更新，还是要给自己写一个关于样式表组件的使用说明，
+一是为了怕自己鱼的记忆，还要翻原来的代码一点点的看，
+二是博客确实需要花费很大的时间和经历，所以也是留给以后的自己在续写博客的时候方便一些。
+确实随着年龄的增长记忆是越来越差了。
+`
+
 export {
   containerData,
   authorData,
@@ -51,4 +61,5 @@ export {
   flagData,
   cssData,
   cssJsonData,
+  preface,
 }
