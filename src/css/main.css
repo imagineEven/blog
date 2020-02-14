@@ -864,7 +864,18 @@
 	background-color: #f5f5d5;
 	padding-top: 100px;
 	padding-bottom: 20px;
-	font-size: 16px;
+	font-size: 1em;
+}
+#container h3 {
+	margin: .4em 0 .2em 0;
+	padding: 0 0 .2em 0;
+	color: #000;
+	font-weight: 500;
+	letter-spacing: -0.03em;
+	border-bottom: 1px solid #d3d3d3;
+	font-size: 1em;
+	margin-top: 1.5em;
+	text-align: center;
 }
 
 #container #title {
@@ -963,6 +974,31 @@
 	background-color: #aad2f0;
 	border: 1px solid #dcdcdc;
 	text-shadow: 1px 1px 0px #eee;
+}
+
+#container .li {
+	padding-left: 20px;
+	line-height: 2;
+	font-weight: lighter;
+	color: #808080;
+	/* font-size: 18px; */
+	position: relative;
+}
+
+#container .circular {
+	position: absolute;
+	left: 0px;
+	top: 14px;
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	border: 1px solid #ffad22;
+}
+
+#container .notes {
+	margin-left: 6px;
+	font-size: .8em;
 }
 
 #nihao {
