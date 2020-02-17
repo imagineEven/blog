@@ -387,10 +387,13 @@ button.background_1a:active{
 .border_50{border-radius: 50%;}
 .border_b_d2{border-bottom: 1px solid #d2d2d2}
 .border_b_80{border-bottom: 1px solid #808080}
+.border_b_666{border-bottom: 1px solid #666666}
+
 .border_xy_4d{border:1px solid #4d4d4d;}
 .border_xy_orange{border:1px solid #ffaf22;}
 .border_xy_d2{border:1px solid #d2d2d2;}
 .border_xy_666{border:1px solid #666666;}
+.border_xy_d3{border:1px solid #d3d3d3;}
 .border_radius_2{border-radius: 2px;}
 .border_radius_4{border-radius: 4px;}
 .border_radius_6{border-radius: 6px;}

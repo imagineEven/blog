@@ -1001,6 +1001,7 @@
 	font-size: .8em;
 }
 
-#nihao {
-	color: red;
+.classify-wrapper .active {
+	color: #fff;
+	background-color: #aad2f0;
 }
