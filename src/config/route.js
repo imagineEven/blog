@@ -33,7 +33,7 @@ import about_law from "../page/about/law"
 import about_report from "../page/about/report"
 import about_recruit from "../page/about/recruit"
 import about_contactus from "../page/about/contactus"
-
+import public_notes from "../page/public/notes"
 
 import ScrollToTop from "../component/scrollToTop"
 /*
@@ -88,6 +88,7 @@ class RouteLink extends Component {
           <Route exact path="/about/report/:id" component={about_report} />
           <Route exact path="/about/recruit" component={about_recruit} />
           <Route exact path="/about/contactus" component={about_contactus} />
+          <Route exact path="/public/notes" component={public_notes} />
           <Route component={no_match} />
         </Switch>
         </ScrollToTop>

@@ -1,10 +1,11 @@
 import React, {
   Component
-} from 'react'
+} from 'react';
+// import {
+//   Link
+// } from 'react-router-dom';
 
-class PagePart extends Component {
-  //方法
-
+class Notes extends Component {
   //页面跳转
   navigateTo(el) {
     var href = el.currentTarget.getAttribute("href");
@@ -22,7 +23,10 @@ class PagePart extends Component {
     this.state = {};
   }
   componentWillMount() {}
-  componentDidMount() {}
+  componentDidMount() {
+    let content = this.props.content
+    this.setState({content});
+  }
   componentWillReceiveProps() {
     //props更新
     //约1s 调用一次
@@ -34,16 +38,11 @@ class PagePart extends Component {
 
   render() {
     return (
-      <div className="page_part_1">
-        <div className="flexbox page_title_part type2" style={{'backgroundImage':('url('+require("../../../images/banner/top_banner18.jpg")+')')}}>
-          <div className="content_wrap">
-            <h1 className="mb_15 font_size55 color_fff">技术篇</h1>
-            <h2 className="font_size35 color_fff line_height12 industry_h2">知识改变命运</h2>
-          </div>
-        </div>
+      <div id="preface-wrap">
+        日记
       </div>
     );
   }
 }
 
-export default PagePart;
+export default Notes;

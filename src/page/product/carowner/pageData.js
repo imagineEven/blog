@@ -53,6 +53,23 @@ let preface = `
 确实随着年龄的增长记忆是越来越差了。
 `
 
+let notesType0 = [
+  {time: '2020年',content: [
+    {
+      title: '好的心情', 
+      notes: {
+        header: '我是标题'
+      },
+      end: '我是结尾'
+    },
+    {
+      title: '我是第二篇文章', 
+      notes: ['今天天气格外的好，好心情'],
+      end: '我是结尾'
+    }
+  ]}
+]
+
 export {
   containerData,
   authorData,
@@ -62,4 +79,5 @@ export {
   cssData,
   cssJsonData,
   preface,
+  notesType0,
 }

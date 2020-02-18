@@ -1,6 +1,5 @@
-import React, {
-  Component
-} from 'react'
+import React, { Component } from 'react'
+import { Link } from 'react-router-dom';
 import CommonHeader from '../../../component/header';
 import CommonFooter from '../../../component/footer';
 // import Features from '../../../component/product/features';
@@ -9,6 +8,7 @@ import AlertQrcode from '../../../component/product/alertqrcode';
 // import Part1 from './part_1';
 // import Part2 from './part_2';
 import pageData from "./pageData.json";
+import * as data from "./pageData.js"
 
 class Service extends Component {
   //方法
@@ -42,6 +42,7 @@ class Service extends Component {
       blogHtml: '',
       // 下面是真正需要的代码
       classifyType: null,
+      notesHtml: '',
     };
   }
   
@@ -50,12 +51,19 @@ class Service extends Component {
   }
 
   changeClassify(type) {
+    if(type === 0) {
+      this.createdcType0();
+    } else {
+      this.createdcType1();
+    }
     this.setState({classifyType:type},() => {
-      console.log('classify', this.state.classifyType);
+      // console.log('classify', this.state.classifyType);
     });
   }
 
-  componentWillMount() {}
+  componentWillMount() {
+    this.createdcType0();
+  }
   componentDidMount() {
     document.title = "车主服务";
   }
@@ -67,6 +75,40 @@ class Service extends Component {
     //组件删除    
     return false
   }
+
+  // 年份日记篇
+  createdcType0() {
+    let html = (
+      <div className="type0-wrapper">
+        {data.notesType0.map((item,index) => (
+          <React.Fragment key={index}>
+            <h3>{item.time}</h3>
+            {item.content.map((note, noteIndex) => (
+                <div className="li" key={noteIndex}>
+                  <span className="circular"></span>
+                  <Link to="/public/notes">
+                    <span>{note.title}</span>
+                    <span className="notes">{`(${note.end})`}</span>
+                  </Link>
+                </div>
+            ))}
+          </React.Fragment>
+        ))}
+      </div>
+    )
+    this.setState({notesHtml: html})
+  }
+
+  // 分类日记篇
+  createdcType1() {
+    let html = (
+      <div className="type0-wrapper">
+        <h3>我的爱好</h3>
+      </div>
+    )
+    this.setState({notesHtml: html})
+  }
+
 
   render() {
     return (
@@ -84,17 +126,20 @@ class Service extends Component {
               </div>
             </div>
 
-            {/* 0分类、1日期进行切换 */}
+            {/* 0日记、1分类进行切换 */}
             <div className="flexbox pt_5 border_b_d2 classify-wrapper">
               <div className={"border_xy_d2  py_5 px_10" + (this.state.classifyType ? '' : ' active')} 
                 onClick={this.changeClassify.bind(this, 0)}>
-                分类
+                日记
               </div>
               <div className={"border_xy_d2  py_5 px_10" + (this.state.classifyType ? ' active' : '')} 
                 onClick={this.changeClassify.bind(this, 1)}>
-                日记
+                分类
               </div>
             </div>
+
+            {/* 笔记内容区域 */}
+            {this.state.notesHtml}
 
           </div>
         </div>

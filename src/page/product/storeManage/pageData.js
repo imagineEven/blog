@@ -18,23 +18,23 @@ let linksName = [
 let links = [
   //文档类
   [
-    {title: '百度链接', href:"https://www.baidu.com/", notes:"我是注释"},
-    {title: '其他链接', href:"https://www.baidu.com/", notes:"我是注释"},
+    {title: '百度链接', href:"https://www.baidu.com/", end:"我是注释"},
+    {title: '其他链接', href:"https://www.baidu.com/", end:"我是注释"},
   ],
   //框架类
   [
-    {title: '百度链接', href:"https://www.baidu.com/", notes:"我是注释"},
-    {title: '其他链接', href:"https://www.baidu.com/", notes:"我是注释"},
+    {title: '百度链接', href:"https://www.baidu.com/", end:"我是注释"},
+    {title: '其他链接', href:"https://www.baidu.com/", end:"我是注释"},
   ],
   //工具类
   [
-    {title: '百度链接', href:"https://www.baidu.com/", notes:"我是注释"},
-    {title: '其他链接', href:"https://www.baidu.com/", notes:"我是注释"},
+    {title: '百度链接', href:"https://www.baidu.com/", end:"我是注释"},
+    {title: '其他链接', href:"https://www.baidu.com/", end:"我是注释"},
   ],
   //铭人类
   [
-    {title: '百度链接', href:"https://www.baidu.com/", notes:"我是注释"},
-    {title: '其他链接', href:"https://www.baidu.com/", notes:"我是注释"},
+    {title: '百度链接', href:"https://www.baidu.com/", end:"我是注释"},
+    {title: '其他链接', href:"https://www.baidu.com/", end:"我是注释"},
   ],
   //工作类
   [

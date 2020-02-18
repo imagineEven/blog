@@ -46,7 +46,7 @@ class PagePart extends Component {
               <li className="li" key={linkIndex}>
                 <span className="circular"></span>
                 <a rel="noopener noreferrer" href={linksItem.href} target="_blank">{linksItem.title}</a>
-                <span className="notes">{`(${linksItem.notes})`}</span>
+                <span className="notes">{`(${linksItem.end})`}</span>
               </li>
             )
           })}

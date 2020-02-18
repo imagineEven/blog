@@ -4,7 +4,7 @@ import React, {
 import CommonHeader from '../../../component/header';
 import CommonFooter from '../../../component/footer';
 import Features from '../../../component/product/features';
-import ServiceType from '../../../component/product/servicetype';
+// import ServiceType from '../../../component/product/servicetype';
 import AlertQrcode from '../../../component/product/alertqrcode';
 import Part1 from './part_1';
 import Part2 from './part_2';
@@ -59,11 +59,11 @@ class Service extends Component {
       <div>
         <CommonHeader model="2"  position="1" />
         <Part1 />
-        <div className="mb_60">
+        {/* <div className="mb_60">
            <ServiceType  data={this.state.servicetype}/>
-        </div>    
-        <Part2  showQrcodeAlert={this.showAlert.bind(this)}/>
-        <div className="mb_60">
+        </div>     */}
+        {/* <Part2  showQrcodeAlert={this.showAlert.bind(this)}/> */}
+        <div className="mb_60 background_fff">
           <Features data={this.state.features}/>
         </div>        
         <CommonFooter />
