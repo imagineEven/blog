@@ -34,6 +34,7 @@ class Features extends Component {
 
   constructor(props) {
     super(props);
+    // xuexi  居然在这里继承；
     let featuresData = props.data;
     this.state = {
       listData: featuresData.list,
