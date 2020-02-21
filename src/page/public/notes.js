@@ -23,14 +23,18 @@ class Notes extends Component {
   constructor(props) {
     super(props);
     // console.log('props', props)
-    this.state = {data: props.location.query.data};
+    let data = props.location.query.data;
+    this.state = {
+      data: data,
+      content: data.notes.content,
+    };
     console.log('state', this.state)
 
   }
   componentWillMount() {}
   componentDidMount() {
-    let content = this.props.content
-    this.setState({content});
+    // let content = this.props.content
+    // this.setState({content});
   }
   componentWillReceiveProps() {
     //props更新
@@ -54,10 +58,14 @@ class Notes extends Component {
             <Author createdTime={this.state.data.end}/>
 
             <Preface content={this.state.data.notes.preface}/>
-
-            <p>内容区域1</p>
-            <p>内容区域2</p>
-
+              {
+                this.state.content.map((item, index) => (
+                  <div>
+                    <p>{item.text}</p>
+                    <img></img>
+                  </div>
+                ))
+              }
           </div>
         </div>
       </div>
