@@ -6,6 +6,7 @@ import React, {
 // } from 'react-router-dom';
 import Author from '../../component/author.js';
 import Preface from '../../component/Even/preface.js';
+import * as data from '@/page/product/carowner/pageData.js';
 
 class Notes extends Component {
   //页面跳转
@@ -36,6 +37,7 @@ class Notes extends Component {
   }
   componentWillMount() {}
   componentDidMount() {
+    console.log('data', data);
     // let content = this.props.content
     // this.setState({content});
   }
