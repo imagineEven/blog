@@ -23,7 +23,10 @@ class Notes extends Component {
   constructor(props) {
     super(props);
     // console.log('props', props)
+    // 通过点击获取数据
     let data = props.location.query.data;
+    // 先把数据写死
+    // let data = 
     this.state = {
       data: data,
       content: data.notes.content,
@@ -60,9 +63,10 @@ class Notes extends Component {
             <Preface content={this.state.data.notes.preface}/>
               {
                 this.state.content.map((item, index) => (
-                  <div>
+                  <div className="" key={index}>
+                    {item.startImage? <img className="noteImage" src={item.startImage}></img> : ''}
                     <p>{item.text}</p>
-                    <img></img>
+                    {item.endImage? <img className="noteImage" src={item.endImage}></img> : ''}
                   </div>
                 ))
               }

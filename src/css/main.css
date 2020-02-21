@@ -1005,3 +1005,9 @@
 	color: #fff;
 	background-color: #aad2f0;
 }
+
+.noteImage {
+	border: .3em solid #e0dfcc;
+	border-radius: 1em;
+	width: 100%;
+}
