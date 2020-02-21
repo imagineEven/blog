@@ -6,7 +6,7 @@ let containerData = `
       标题
     </div>
 
-    <Auto createdTime="2020年2月10日"/>
+    <Author createdTime="2020年2月10日"/>
 
     <p>内容区域1</p>
     <p>内容区域2</p>
@@ -16,6 +16,8 @@ let containerData = `
 `
 
 let authorData = `
+import Author from '../../component/author.js';
+
 <Author createdTime="2020年2月2日"/>
 `
 
@@ -56,11 +58,13 @@ let preface = `
 let notesType0 = [
   {time: '2020年',content: [
     {
-      title: '好的心情', 
+      title: '居家隔离(八五三)', 
       notes: {
-        header: '我是标题'
+        header: '将漂泊下一座城',
+        preface: '我总能在深夜清醒，温暖如太阳亦不可及，纯真于世俗却不可触碰，我是流浪的人.....',
+        content: []
       },
-      end: '我是结尾'
+      end: '2020.02.21'
     },
     {
       title: '我是第二篇文章', 

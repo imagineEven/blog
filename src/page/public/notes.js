@@ -4,6 +4,8 @@ import React, {
 // import {
 //   Link
 // } from 'react-router-dom';
+import Author from '../../component/author.js';
+import Preface from '../../component/Even/preface.js';
 
 class Notes extends Component {
   //页面跳转
@@ -20,7 +22,10 @@ class Notes extends Component {
 
   constructor(props) {
     super(props);
-    this.state = {};
+    // console.log('props', props)
+    this.state = {data: props.location.query.data};
+    console.log('state', this.state)
+
   }
   componentWillMount() {}
   componentDidMount() {
@@ -38,8 +43,23 @@ class Notes extends Component {
 
   render() {
     return (
-      <div id="preface-wrap">
-        日记
+      <div id="notes-wrap">
+        <div id="container">
+          <div id="container-inner">
+
+            <div id="title">
+              {this.state.data.notes.header}
+            </div>
+
+            <Author createdTime={this.state.data.end}/>
+
+            <Preface content={this.state.data.notes.preface}/>
+
+            <p>内容区域1</p>
+            <p>内容区域2</p>
+
+          </div>
+        </div>
       </div>
     );
   }

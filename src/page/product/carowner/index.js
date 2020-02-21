@@ -65,7 +65,7 @@ class Service extends Component {
     this.createdcType0();
   }
   componentDidMount() {
-    document.title = "车主服务";
+    document.title = "日记";
   }
   componentWillReceiveProps() {
     //props更新
@@ -86,7 +86,7 @@ class Service extends Component {
             {item.content.map((note, noteIndex) => (
                 <div className="li" key={noteIndex}>
                   <span className="circular"></span>
-                  <Link to="/public/notes">
+                  <Link to={{pathname:"/public/notes", query:{data:note}}}>
                     <span>{note.title}</span>
                     <span className="notes">{`(${note.end})`}</span>
                   </Link>
