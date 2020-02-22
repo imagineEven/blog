@@ -6,8 +6,8 @@ import React, {
 // } from 'react-router-dom';
 import Author from '../../component/author.js';
 import Preface from '../../component/Even/preface.js';
-import * as data from '@/page/product/carowner/pageData.js';
-
+import * as allData from '@/page/product/carowner/pageData.js';
+import CommonHeader from '@/component/header';
 class Notes extends Component {
   //页面跳转
   navigateTo(el) {
@@ -25,19 +25,18 @@ class Notes extends Component {
     super(props);
     // console.log('props', props)
     // 通过点击获取数据
-    let data = props.location.query.data;
+    // let data = props.location.query.data;
     // 先把数据写死
-    // let data = 
+    let data = allData.notesType0[0].content[0];
     this.state = {
       data: data,
       content: data.notes.content,
     };
-    console.log('state', this.state)
+    // console.log('state', this.state)
 
   }
   componentWillMount() {}
   componentDidMount() {
-    console.log('data', data);
     // let content = this.props.content
     // this.setState({content});
   }
@@ -53,6 +52,7 @@ class Notes extends Component {
   render() {
     return (
       <div id="notes-wrap">
+        <CommonHeader model="2"  position="1" />
         <div id="container">
           <div id="container-inner">
 

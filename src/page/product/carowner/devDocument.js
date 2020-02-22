@@ -1,11 +1,11 @@
 import React, {
   Component
 } from 'react'
-import AlertQrcode from '../../../component/product/alertqrcode';
-import Author from '../../../component/author.js';
+import AlertQrcode from '@/component/product/alertqrcode';
+import Author from '@/component/author.js';
 import * as data from './pageData.js';
-import BlockQuote from '../../../component/blockquote.js';
-import Preface from '../../../component/Even/preface.js';
+import BlockQuote from '@/component/blockquote.js';
+import Preface from '@/component/Even/preface.js';
 
 class DevDocument extends Component {
   //方法
@@ -73,6 +73,10 @@ class DevDocument extends Component {
           <p>css高亮数据结构</p>
           <BlockQuote structureName="" content={data.cssJsonData}/>
           <BlockQuote structureName="css" content={data.cssData}/>
+          <p>头部组件</p>
+          <BlockQuote structureName="" content={data.headerData}/>
+          <p>底部组件</p>
+          <BlockQuote structureName="" content={data.footerData}/>
         </div>
       </div>
     );

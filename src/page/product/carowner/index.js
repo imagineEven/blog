@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom';
-import CommonHeader from '../../../component/header';
-import CommonFooter from '../../../component/footer';
+import CommonHeader from '@/component/header';
+import CommonFooter from '@/component/footer';
 // import Features from '../../../component/product/features';
 // import ServiceType from '../../../component/product/servicetype';
 import AlertQrcode from '../../../component/product/alertqrcode';

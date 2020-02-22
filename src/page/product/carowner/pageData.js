@@ -16,19 +16,35 @@ let containerData = `
 `
 
 let authorData = `
-import Author from '../../component/author.js';
+import AlertQrcode from '@/component/product/alertqrcode';
 
 <Author createdTime="2020年2月2日"/>
 `
 
 let blockData = `
+import BlockQuote from '@/component/blockquote.js';
+
 // structureName属性值：list css null
 <BlockQuote structureName="" content={authorData}/>
 `
 
 let prefaceData = `
+import Preface from '@/component/Even/preface.js';
+
 <Preface content=content/>
 `
+let headerData = `
+import CommonHeader from '@/component/header';
+
+<CommonHeader model="2"  position="1" />
+`
+
+let footerData = `
+import CommonFooter from '@/component/footer';
+
+<CommonFooter />
+`
+
 let flagData = `
 <code id="flag">我是高亮区域</code>
 `
@@ -107,6 +123,8 @@ let notesType0 = [
   ]}
 ]
 
+
+
 export {
   containerData,
   authorData,
@@ -117,4 +135,6 @@ export {
   cssJsonData,
   preface,
   notesType0,
+  headerData,
+  footerData,
 }
