@@ -59,19 +59,17 @@ class Notes extends Component {
             <div id="title">
               {this.state.data.notes.header}
             </div>
-
-            <Author createdTime={this.state.data.end}/>
-
-            <Preface content={this.state.data.notes.preface}/>
-              {
-                this.state.content.map((item, index) => (
-                  <div className="" key={index}>
-                    {item.startImage? <img className="noteImage" src={item.startImage}></img> : ''}
-                    <p>{item.text}</p>
-                    {item.endImage? <img className="noteImage" src={item.endImage}></img> : ''}
-                  </div>
-                ))
-              }
+            {this.state.data.end?<Author createdTime={this.state.data.end}/>: ''}
+            {this.state.data.notes.preface?<Preface content={this.state.data.notes.preface}/>: ''}
+            {
+              this.state.content.map((item, index) => (
+                <div className="" key={index}>
+                  {item.startImage? <img className="noteImage" src={item.startImage}></img> : ''}
+                  <p>{item.text}</p>
+                  {item.endImage? <img className="noteImage" src={item.endImage}></img> : ''}
+                </div>
+              ))
+            }
           </div>
         </div>
       </div>
