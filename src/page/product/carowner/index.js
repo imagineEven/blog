@@ -140,17 +140,8 @@ class Service extends Component {
 
             {/* 笔记内容区域 */}
             {this.state.notesHtml}
-
           </div>
         </div>
-        {/* <Part1 showQrcodeAlert={this.showAlert.bind(this)}/>
-        <div className="mb_60 scrollify_anchor_point">
-           <ServiceType  data={this.state.servicetype}/>
-        </div>    
-        <Part2 showQrcodeAlert={this.showAlert.bind(this)}/>
-        <div className="mb_60 scrollify_anchor_point">
-          <Features data={this.state.features}/>
-        </div>         */}
         <CommonFooter />
         {this.state.alertHtml}
       </div>

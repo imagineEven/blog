@@ -8,6 +8,8 @@ import CommonFooter from '../../../component/footer';
 import AlertQrcode from '../../../component/product/alertqrcode';
 import Part1 from './part_1';
 import Part2 from './part_2';
+import Part3 from './part_3';
+
 // import pageData from "./pageData.json";
 import Preface from '@/component/Even/preface.js';
 import * as data from './pageData.js';
@@ -45,7 +47,7 @@ class Service extends Component {
   componentWillMount() {}
   componentDidMount() {
     document.title = "人生规划";
-    let part_2 = <Part2 data={data.part2}/>;
+    let part_2 = <Part3 data={data.part2}/>;
     this.setState({
       contentHtml: part_2
     })

@@ -1,4 +1,6 @@
 let containerData = `
+import Author from '@/component/author.js';
+
 <div id="container">
   <div id="container-inner">
 
@@ -16,7 +18,7 @@ let containerData = `
 `
 
 let authorData = `
-import AlertQrcode from '@/component/product/alertqrcode';
+import Author from '@/component/author.js';
 
 <Author createdTime="2020年2月2日"/>
 `
