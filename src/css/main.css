@@ -865,6 +865,7 @@
 	padding-top: 100px;
 	padding-bottom: 20px;
 	font-size: 1em;
+	position: relative;
 }
 #container h3 {
 	margin: .4em 0 .2em 0;

@@ -3,12 +3,14 @@ import React, {
 } from 'react'
 import CommonHeader from '../../../component/header';
 import CommonFooter from '../../../component/footer';
-import Features from '../../../component/product/features';
-import ServiceType from '../../../component/product/servicetype';
+// import Features from '../../../component/product/features';
+// import ServiceType from '../../../component/product/servicetype';
 import AlertQrcode from '../../../component/product/alertqrcode';
 import Part1 from './part_1';
 import Part2 from './part_2';
-import pageData from "./pageData.json";
+// import pageData from "./pageData.json";
+import Preface from '@/component/Even/preface.js';
+import * as data from './pageData.js';
 
 class Service extends Component {
   //方法
@@ -36,14 +38,17 @@ class Service extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      features: pageData.features,
-      servicetype: pageData.servicetype,
+      contentHtml: '',
       alertHtml: ''
     };
   }
   componentWillMount() {}
   componentDidMount() {
-    document.title = "查勘定损";
+    document.title = "人生规划";
+    let part_2 = <Part2 data={data.part2}/>;
+    this.setState({
+      contentHtml: part_2
+    })
   }
   componentWillReceiveProps() {
     //props更新
@@ -59,13 +64,12 @@ class Service extends Component {
       <div>
         <CommonHeader model="2"  position="1" />
         <Part1 />
-        <div className="mb_60">
-           <ServiceType  data={this.state.servicetype}/>
-        </div>    
-        <Part2  showQrcodeAlert={this.showAlert.bind(this)}/>
-        <div className="mb_60">
-          <Features data={this.state.features}/>
-        </div>        
+        <div id="container" style={{"paddingTop": "20px"}}>
+          <div className="mb_40">
+            <Preface content={data.preface}/>
+          </div>
+          {this.state.contentHtml}
+        </div>
         <CommonFooter />
         {this.state.alertHtml}
       </div>

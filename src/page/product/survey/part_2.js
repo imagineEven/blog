@@ -1,37 +1,58 @@
 import React, {
   Component
 } from 'react';
-import ServiceDis from '../../../component/product/servicedis';
-import pageData from "./pageData.json";
+import {
+  Link
+} from 'react-router-dom';
 
 
 class PagePart extends Component {
   //方法
-  //显示alert
-  showAlert(type) {
-    this.props.showQrcodeAlert(type);
+  newsList = []
+  //构造新闻html
+  structureHtml(list) {
+    let _this = this;
+    let html = list.map(function(item, index) {
+      let time = (item.updateTime ? item.updateTime : item.createTime);
+      let timeText = time.split(" ")[0];
+      return (
+        <React.Fragment key={index}>
+        {/* <Link to={"/about/report/"+item.id} className="pointer" key={index}> */}
+          <div className="mb_50 pb_30 border_b_d2 flexbox items_center">
+            {/* 图片 */}
+            {/* <div className="flex_0 mr_40 background_cover form_img" style={{"backgroundImage":('url('+item.iconUrl+')'),"height": "10em","width":"10em"}}>
+            </div> */}
+            <div className="flex_grow">
+              <Link to={"/about/report/"+item.id} className="pointer" key={index}>
+                <div className="pb_10  color_4d line_height15" style={{"fontSize": "1.3em"}}>{item.title}</div>
+              </Link>
+              {/* <div className="border_b_d2" style={{"width":"30%"}}></div> */}
+              <div className="pt_10 pb_20  color_80">{timeText}</div>
+              <div className=" line_height15">{item.textContent}</div>
+            </div>
+            <div className="flex_0" style={{"marginLeft":"10%"}}>
+              <i className="inline_block iconfont text_center color_orange border_xy_orange border_50 wh_40">&#xe681;</i>
+            </div>
+          </div>
+        </React.Fragment>
+      );
+    })
+    _this.setState({
+      newsListHtml: html
+    })
   }
-  //页面跳转
-  navigateTo(el) {
-    var href = el.currentTarget.getAttribute("href");
-    if (!href) {
-      alert("服务就快开放啦，敬请期待~");
-      el.preventDefault();
-      return false;
-    } else {
-      return true;
-    }
-  }
-
   constructor(props) {
     super(props);
     this.state = {
-      disData: pageData.servicedis,
-      alertHtml: ''
+      newsListHtml: ''
     };
+    this.newsList = props.data
   }
   componentWillMount() {}
-  componentDidMount() {}
+  componentDidMount() {
+    let list = this.newsList;
+    this.structureHtml(list);
+  }
   componentWillReceiveProps() {
     //props更新
     //约1s 调用一次
@@ -43,33 +64,12 @@ class PagePart extends Component {
 
   render() {
     return (
-      <div className="page_part_2 background_fc">
-        <div className="py_80 text_center">
-          <h2 className="mb_25 font_size50 color_4d ">服务流程</h2>
-          <p className="font_size22 color_80 font_lighter line_height15">简单案件秒级处理，复杂案件全程管控</p>
-        </div>
-        <div className="content_wrap pb_100">
-          <div className="mx_auto inner_content_wrap">
-            <div className="flexbox items_center product_service_part">
-              <div className="w_50 text_center">
-                <img className="w_100 min_img" src={require("../../../images/product/service_disc4.png")} alt="yilutong,壹路通"/>
-                <div className="clearfix">
-                  <div className="w_100 text_center float_left">
-                    <p className="mb_10 font_size20 color_80">服务端</p>
-                    <button className="noappearance px_15 py_5 btn_orange font_size16 border_radius_4" onClick={this.showAlert.bind(this,1)}>
-                      <i className="iconfont">&#xe634;</i>
-                      <span>点击下载APP</span>
-                    </button>
-                  </div>
-                </div>
-              </div>
-              <div className="w_50">
-                <ServiceDis data={this.state.disData[0]} />
-              </div>
-            </div>
+      <div className="page_part_2 pb_80">
+        <div>
+          <div className="mx_auto">
+            {this.state.newsListHtml}
           </div>
         </div>
-        {this.state.alertHtml}
       </div>
     );
   }

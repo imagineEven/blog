@@ -158,7 +158,7 @@ class Header extends Component {
                   </li>
                   <li className="text_center">
                     <Link to="/product/survey" className="py_12 inline_block w_100 pointer">
-                      <span>感语</span>
+                      <span>规划</span>
                     </Link>
                   </li>
                   <li className="text_center">
