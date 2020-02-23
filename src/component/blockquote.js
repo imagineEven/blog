@@ -96,8 +96,8 @@ class Auth extends Component {
     // console.log(new Date().getTime())
   }
   componentDidMount() {
-    console.log('this.props+componentDidMount',this.props.structureName);
-    console.log('this.props.content+componentDidMount',this.props.content);
+    // console.log('this.props+componentDidMount',this.props.structureName);
+    // console.log('this.props.content+componentDidMount',this.props.content);
 
     let structureName = this.props.structureName;
     let content = this.props.content;

@@ -69,6 +69,7 @@ class RouteLink extends Component {
           <Route exact path="/product/devDocument" component={product_devDocument} />
           <Route exact path="/product/transcar" component={product_transcar} />
           <Route exact path="/product/survey" component={product_survey} />
+          <Route exact path="/product/survey/:id" component={product_survey} />
           <Route exact path="/product/DevOps" component={product_devOps} />
           <Route exact path="/product/carfleet" component={product_carfleet} />
           <Route exact path="/product/storeManage" component={product_storemanage} />

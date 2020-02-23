@@ -47,14 +47,31 @@ class Service extends Component {
   componentWillMount() {}
   componentDidMount() {
     document.title = "人生规划";
-    let part_2 = <Part3 data={data.part2}/>;
+    this.newsListChangeDetail(this.props);
+  }
+  newsListChangeDetail(nowProps) {
+    let _this = this;
+    let hashPath = nowProps.location.pathname,
+      newsId = 0;
+
+    if (hashPath.indexOf("/product/survey/") > -1) {
+      newsId = hashPath.replace("/product/survey/", '');
+    }
+    let contentHtml = (<Part2 data={data.part2}/>);
+    if (newsId) {
+      let part3Item = data.part3.filter((item) => {
+        return item.id == newsId;
+      })
+      contentHtml = (<Part3 id={newsId} data={part3Item[0]}/>);
+    }
     this.setState({
-      contentHtml: part_2
+      contentHtml: contentHtml
     })
   }
-  componentWillReceiveProps() {
+  componentWillReceiveProps(nextProps) {
     //props更新
     //约1s 调用一次
+    this.newsListChangeDetail(nextProps);
   }
   componentWillUnmount() {
     //组件删除    

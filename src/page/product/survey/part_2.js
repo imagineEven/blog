@@ -23,7 +23,7 @@ class PagePart extends Component {
             {/* <div className="flex_0 mr_40 background_cover form_img" style={{"backgroundImage":('url('+item.iconUrl+')'),"height": "10em","width":"10em"}}>
             </div> */}
             <div className="flex_grow">
-              <Link to={"/about/report/"+item.id} className="pointer" key={index}>
+              <Link to={"/product/survey/"+item.id} className="pointer" key={index}>
                 <div className="pb_10  color_4d line_height15" style={{"fontSize": "1.3em"}}>{item.title}</div>
               </Link>
               {/* <div className="border_b_d2" style={{"width":"30%"}}></div> */}

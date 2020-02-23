@@ -31,10 +31,15 @@ let links = [
     {title: '百度链接', href:"https://www.baidu.com/", end:"我是注释"},
     {title: '其他链接', href:"https://www.baidu.com/", end:"我是注释"},
   ],
+  //学习类
+  [
+    {title: '小白学股票', href:"https://ke.qq.com/course/211088?taid=1176988543039632", end:"2020.02.22"},
+    {title: '其他链接', href:"https://www.baidu.com/", end:"我是注释"},
+  ],
   //铭人类
   [
-    {title: '百度链接', href:"https://www.baidu.com/", end:"我是注释"},
-    {title: '其他链接', href:"https://www.baidu.com/", end:"我是注释"},
+    {title: '百度链接', href:"https://www.baidu.com/", notes:"我是注释"},
+    {title: '其他链接', href:"https://www.baidu.com/", notes:"我是注释"},
   ],
   //工作类
   [
@@ -42,11 +47,6 @@ let links = [
     {title: '其他链接', href:"https://www.baidu.com/", notes:"我是注释"},
   ],
   //其他类
-  [
-    {title: '百度链接', href:"https://www.baidu.com/", notes:"我是注释"},
-    {title: '其他链接', href:"https://www.baidu.com/", notes:"我是注释"},
-  ],
-  //文档类
   [
     {title: '百度链接', href:"https://www.baidu.com/", notes:"我是注释"},
     {title: '其他链接', href:"https://www.baidu.com/", notes:"我是注释"},
