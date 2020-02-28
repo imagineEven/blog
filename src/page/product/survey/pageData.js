@@ -69,14 +69,13 @@ let part3 = [
         "time": '2020.02',
         "content": [
           {
-            "time": "2020.02.24",
-            "content": "轱辘轱辘"
+            "time": "2020.02.26",
+            "content": "/ai/:发音:爱,minux[ˈmaɪnəs]:减]，/i/:发音a,busy[ˈbɪzi]:忙碌的"
           },
           {
-            "time": "2020.02.23",
-            "content": "1.学习内容，2.学习方法"
+            "time": "2020.02.24",
+            "content": "-y:名词后缀[prodigy:奇才]，-ar:形容其后缀[similar:相似的]"
           },
-
         ]
       },
     ]
