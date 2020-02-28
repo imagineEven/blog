@@ -26,7 +26,7 @@ class PagePart extends Component {
           <div className="content_wrap">
             <div className="type3">
               <div>
-                学习英语时间：9:00-10:00
+                学习英语时间：9:00-10:00,  上班路上~，临睡觉学习半小时。
               </div>
               <br/>
               <div>
